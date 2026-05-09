@@ -12,3 +12,7 @@ At the heart of the keyboard is the RP2040, a powerfull 32bit arm microcontrolle
 - Two side buttons on the top right of the keyboard, inspired by the NES controller.
 - A switch near the LEDs to cut power (usefull for battery powered version)
 - Wireless/battery powered (includes daughterboard design to acquire a simple, yet compact charging circuit. 
+
+## Tools Used
+- [Kicad](https://www.kicad.org/)
+- [Keyboard Layout Editor](https://www.keyboard-layout-editor.com/#/)
