@@ -207,8 +207,17 @@
 			)
 		)
 		(property ki_fp_filters "USB*C*Receptacle*")
+		(path "/2a19d27b-7efa-4e95-83d3-49490ef4b496")
 		(sheetname "/")
 		(sheetfile "nes_keyboard_daughterboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "S1" "B1" "B12" "A1" "A12" "A9" "B4" "B9" "A4" "A5" "B5" "A7" "B7"
+					"A6" "B6" "A8" "B8"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -574,8 +583,15 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
+		(path "/c41c5308-2051-4d7e-be4b-835fe6abe7cd")
 		(sheetname "/")
 		(sheetfile "nes_keyboard_daughterboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1144,8 +1160,15 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
+		(path "/fd0a055c-e19a-4d0d-b80b-7f2ae48b419c")
 		(sheetname "/")
 		(sheetfile "nes_keyboard_daughterboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1307,7 +1330,7 @@
 				)
 			)
 		)
-		(property "Value" "Orange"
+		(property "Value" "Red"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1355,8 +1378,15 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/18fa9d24-75f9-412a-8355-55ae5430e5ce")
 		(sheetname "/")
 		(sheetfile "nes_keyboard_daughterboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1575,8 +1605,15 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
+		(path "/f3da16a8-5f2e-49b2-9a8c-b52560a55e86")
 		(sheetname "/")
 		(sheetfile "nes_keyboard_daughterboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1974,9 +2011,68 @@
 				)
 			)
 		)
+		(property "Sim.Library" "/home/arya/Downloads/NCP1117 PSPICE MODELS/NCP1117 Model Library.lib"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f65f7d7e-fe8c-4a27-afa1-6bbe58eb646b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" "ncp1117_33-x"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c875f9f5-2e3f-449a-a7c4-3aeb5fa36740")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ccc7f077-b958-4e60-a18b-4b883cef979b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da67cace-997a-4c4f-81c6-ab94a472656e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?223*TabPin2*")
+		(path "/5e3c1321-edba-4f6e-b5b3-bd941979302d")
 		(sheetname "/")
 		(sheetfile "nes_keyboard_daughterboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2202,7 +2298,7 @@
 				)
 			)
 		)
-		(property "Value" "White"
+		(property "Value" "Red"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2236,7 +2332,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Sim.Pins" "1=A 2=K"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2249,9 +2345,42 @@
 				)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5eae44d3-9e67-4d4e-953c-57c56ba10e49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" "is=0.03 vj=2 bv=5 ibv=0.0001"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4cb631f-7ac4-45f1-aff7-135c2632dfcc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/5c642b48-58d8-44b2-9d99-c485bf70855e")
 		(sheetname "/")
 		(sheetfile "nes_keyboard_daughterboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2471,8 +2600,15 @@
 			)
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/1acd502e-f1df-4e11-8fcd-c27543562d30")
 		(sheetname "/")
 		(sheetfile "nes_keyboard_daughterboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -2738,8 +2874,15 @@
 			)
 		)
 		(property ki_fp_filters "SOT?666*")
+		(path "/a842ef43-7df5-48b5-80e5-5dcc3503a4b3")
 		(sheetname "/")
 		(sheetfile "nes_keyboard_daughterboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "5" "2" "6" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3208,8 +3351,15 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
+		(path "/8b895c77-7d93-4d0c-911c-9cca050250e7")
 		(sheetname "/")
 		(sheetfile "nes_keyboard_daughterboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3676,8 +3826,17 @@
 			)
 		)
 		(property ki_fp_filters "USB*C*Receptacle*")
+		(path "/87dca7c6-d928-46af-b3aa-e49550d6dc6a")
 		(sheetname "/")
 		(sheetfile "nes_keyboard_daughterboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "S1" "B1" "B12" "A1" "A12" "A9" "B4" "B9" "A4" "A5" "B5" "A7" "B7"
+					"A6" "B6" "A8" "B8"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4137,8 +4296,15 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
+		(path "/219ac782-389d-4c01-ac66-aefc02360529")
 		(sheetname "/")
 		(sheetfile "nes_keyboard_daughterboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4336,8 +4502,15 @@
 			)
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/0b0746fa-9bf5-46e2-934f-c5d761e734e1")
 		(sheetname "/")
 		(sheetfile "nes_keyboard_daughterboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -5063,8 +5236,15 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/0d3f9b9f-eb73-42cc-868d-c6e7ffec1260")
 		(sheetname "/")
 		(sheetfile "nes_keyboard_daughterboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6239,8 +6419,15 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
+		(path "/39c52e04-f3ea-49a3-88e5-175e5b7a04e5")
 		(sheetname "/")
 		(sheetfile "nes_keyboard_daughterboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8053,8 +8240,15 @@
 			)
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/c9edd228-67c2-46db-8c3c-15630d51a4b8")
 		(sheetname "/")
 		(sheetfile "nes_keyboard_daughterboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -9861,8 +10055,15 @@
 			)
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/9e1b3cbe-5d2b-4615-b05f-f35fc3c89419")
 		(sheetname "/")
 		(sheetfile "nes_keyboard_daughterboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
