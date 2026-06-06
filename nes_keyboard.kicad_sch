@@ -194,187 +194,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -2420,145 +2239,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -2674,6 +2354,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VBUS"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text_box "KEYBOARD MATRIX"
 		(exclude_from_sim no)
@@ -2734,26 +2553,6 @@
 			(justify left top)
 		)
 		(uuid "697c3725-78f3-4b45-9d37-060bc0fb0876")
-	)
-	(text_box "LED POWER"
-		(exclude_from_sim no)
-		(at 341.63 124.46 0)
-		(size 63.5 34.29)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left top)
-		)
-		(uuid "7f148412-f9c6-4abe-b0ba-1d11211135a1")
 	)
 	(text_box "ENCODER"
 		(exclude_from_sim no)
@@ -3766,12 +3565,6 @@
 		(uuid "e5cd8c92-5799-4c11-be9b-7eb94c728f50")
 	)
 	(junction
-		(at 151.13 273.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e62b073a-9b09-41c9-ba51-29fd15e48726")
-	)
-	(junction
 		(at 287.02 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4054,16 +3847,6 @@
 			(type default)
 		)
 		(uuid "2084b842-ba8f-482c-bcea-f10fc9fcb0b6")
-	)
-	(wire
-		(pts
-			(xy 373.38 144.78) (xy 374.65 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20b53450-e3d8-4923-8b0c-e8dae8e54538")
 	)
 	(wire
 		(pts
@@ -4477,16 +4260,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 241.3) (xy 220.98 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c946f43-963b-4c35-b28c-9378495946d7")
-	)
-	(wire
-		(pts
 			(xy 387.35 57.15) (xy 386.08 57.15)
 		)
 		(stroke
@@ -4674,16 +4447,6 @@
 			(type default)
 		)
 		(uuid "50b33ca5-fabf-4285-ad2d-9ba929a67696")
-	)
-	(wire
-		(pts
-			(xy 151.13 273.05) (xy 165.1 273.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5133f207-9761-4698-b7ad-fac96a377944")
 	)
 	(wire
 		(pts
@@ -6587,16 +6350,6 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 142.24) (xy 373.38 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee26bbc0-085d-4a0f-af1f-3829b4cb9214")
-	)
-	(wire
-		(pts
 			(xy 114.3 86.36) (xy 132.08 86.36)
 		)
 		(stroke
@@ -6795,16 +6548,6 @@
 		)
 		(uuid "03633b54-bed3-4ac4-b47d-d96c930def5a")
 	)
-	(label "C1"
-		(at 387.35 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "050f70de-6eb0-4652-9082-f1f2e8d56f1f")
-	)
 	(label "C3"
 		(at 73.66 25.4 0)
 		(effects
@@ -6815,35 +6558,15 @@
 		)
 		(uuid "05356f98-fd3b-4dfd-b02d-ad4afbdf4598")
 	)
-	(label "SW"
-		(at 358.14 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "08dd749c-91b8-42cd-9e9c-597609a6b54e")
-	)
-	(label "TERMINAL_A"
-		(at 358.14 41.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "10115c11-7709-49e7-8a39-5cc02b851ba0")
-	)
-	(label "C6"
-		(at 387.35 64.77 0)
+	(label "TERMINAL_B"
+		(at 387.35 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "11a82bea-76ef-430b-8bec-a32be90fe780")
+		(uuid "07f4a265-9175-4a54-88aa-72ce5d609c0b")
 	)
 	(label "R1"
 		(at 35.56 151.13 180)
@@ -6855,16 +6578,6 @@
 		)
 		(uuid "12d3a770-19f0-4014-8bec-03ac1f0ffe89")
 	)
-	(label "C8"
-		(at 387.35 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "16136359-29ec-42ff-be21-f15958069b0e")
-	)
 	(label "D_REG"
 		(at 121.92 260.35 0)
 		(effects
@@ -6874,6 +6587,16 @@
 			(justify left bottom)
 		)
 		(uuid "175e7e4d-d6e7-4160-a50a-4d752cda7cc5")
+	)
+	(label "R5"
+		(at 387.35 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1886bc69-f42d-4c78-921c-d62365470d76")
 	)
 	(label "C1"
 		(at 38.1 25.4 0)
@@ -6895,6 +6618,16 @@
 		)
 		(uuid "22695a22-2b89-4100-b60a-07643b8582c2")
 	)
+	(label "C9"
+		(at 387.35 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22806550-04f9-4e78-be6b-03e8af23d5ce")
+	)
 	(label "R4"
 		(at 177.8 262.89 270)
 		(effects
@@ -6915,6 +6648,26 @@
 		)
 		(uuid "2428f5b4-05c3-43c1-8b7f-fa5359c69b46")
 	)
+	(label "C1"
+		(at 358.14 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "265bbc61-911d-464f-ba23-2963e7d1316d")
+	)
+	(label "C14"
+		(at 387.35 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26ab5a5a-48b4-42e2-961c-dce67489aed2")
+	)
 	(label "C8"
 		(at 162.56 25.4 0)
 		(effects
@@ -6924,16 +6677,6 @@
 			(justify left bottom)
 		)
 		(uuid "28594d30-687d-46aa-b526-9635b52848bc")
-	)
-	(label "C7"
-		(at 387.35 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "285d0f08-78bf-4b28-8e42-48187d696fa6")
 	)
 	(label "C9"
 		(at 180.34 25.4 0)
@@ -6945,15 +6688,15 @@
 		)
 		(uuid "2dd907b1-bebd-40fa-8057-c680a8a3b2dd")
 	)
-	(label "R1"
-		(at 358.14 62.23 180)
+	(label "C10"
+		(at 387.35 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "36cb15a5-0015-4b7b-97ee-3b1ab57ae945")
+		(uuid "2e09c2c4-ccce-40a8-b000-4673855d392c")
 	)
 	(label "C10"
 		(at 198.12 25.4 0)
@@ -6965,16 +6708,6 @@
 		)
 		(uuid "39d413b9-a23a-432f-a230-d6ef98c4a432")
 	)
-	(label "C5"
-		(at 358.14 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "40c3f08b-5a71-4486-9ab4-f61affd15998")
-	)
 	(label "R6"
 		(at 151.13 262.89 270)
 		(effects
@@ -6985,6 +6718,26 @@
 		)
 		(uuid "441410d0-7768-4bef-bd1a-5c6216738dda")
 	)
+	(label "C7"
+		(at 358.14 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4536125f-1ca0-44da-b66e-3deaf72fe1ab")
+	)
+	(label "C12"
+		(at 387.35 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48a40a56-a132-4791-82b9-4858cb0787d8")
+	)
 	(label "R5"
 		(at 165.1 262.89 270)
 		(effects
@@ -6994,16 +6747,6 @@
 			(justify right bottom)
 		)
 		(uuid "48f4dcb6-ca49-461e-83cf-32500e13cb78")
-	)
-	(label "TERMINAL_B"
-		(at 358.14 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "48fa886d-b90a-4534-847f-8d0f0f7dab0f")
 	)
 	(label "VOL"
 		(at 151.13 274.32 270)
@@ -7025,25 +6768,25 @@
 		)
 		(uuid "523140e2-f005-4048-8c37-49bbf171aece")
 	)
-	(label "C4"
-		(at 387.35 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "53bd4301-2e8e-4328-be66-353e53b2e6a4")
-	)
-	(label "R6"
-		(at 358.14 57.15 180)
+	(label "R3"
+		(at 358.14 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "5c81c6fd-9e87-4916-8e8d-bed825952d29")
+		(uuid "5b83612b-265d-47bc-9f10-4cee34637a8f")
+	)
+	(label "C4"
+		(at 358.14 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5cf73322-0070-46e7-9764-0ea06a8e1b02")
 	)
 	(label "C16"
 		(at 304.8 25.4 0)
@@ -7065,15 +6808,35 @@
 		)
 		(uuid "635eac63-9b2d-4b64-b489-26c88656539c")
 	)
-	(label "R4"
-		(at 358.14 52.07 180)
+	(label "C15"
+		(at 387.35 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "698f1084-987b-4041-95e4-04ec85cd2dd4")
+	)
+	(label "C6"
+		(at 358.14 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "727277c4-6275-4804-acca-4c7787253074")
+		(uuid "70d96eeb-a25f-4a5a-9e6a-fe214f067875")
+	)
+	(label "C2"
+		(at 358.14 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "71bbf9ed-cff7-446a-83aa-04bef03f0810")
 	)
 	(label "VOL"
 		(at 382.27 99.06 0)
@@ -7084,16 +6847,6 @@
 			(justify left bottom)
 		)
 		(uuid "7401b911-fd7a-40fa-bdbb-671e962620b5")
-	)
-	(label "R2"
-		(at 358.14 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7722dd51-271c-4090-8a04-2b7d5e392b3e")
 	)
 	(label "C13"
 		(at 251.46 25.4 0)
@@ -7125,25 +6878,15 @@
 		)
 		(uuid "7bb77caa-866f-4b1f-ac1d-471b229088fd")
 	)
-	(label "LED_DATA"
-		(at 358.14 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7c430590-6b5e-4682-b63c-11659a76af36")
-	)
-	(label "C12"
-		(at 387.35 49.53 0)
+	(label "C8"
+		(at 387.35 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "7c8a2ec7-cb40-4a3f-ba0f-8a76f6817d9e")
+		(uuid "80c70ee7-9eb3-41f9-a57b-a6e1f87f837b")
 	)
 	(label "TERMINAL_B"
 		(at 179.07 208.28 0)
@@ -7175,15 +6918,15 @@
 		)
 		(uuid "841d5387-49c4-491c-866c-7f844df6351d")
 	)
-	(label "C11"
-		(at 387.35 52.07 0)
+	(label "R6"
+		(at 387.35 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "8526e802-9fa2-4380-83ac-f992fb23bd8e")
+		(uuid "859ee717-85b7-4f69-bedb-e1521d75aca8")
 	)
 	(label "R2"
 		(at 35.56 129.54 180)
@@ -7194,6 +6937,16 @@
 			(justify right bottom)
 		)
 		(uuid "892058a0-7121-463c-83fe-f7f0da408e1f")
+	)
+	(label "C3"
+		(at 358.14 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8cac54fe-13c1-4fd1-a2c8-4e1229169ce1")
 	)
 	(label "SW"
 		(at 220.98 190.5 0)
@@ -7225,15 +6978,25 @@
 		)
 		(uuid "934ce9ac-6206-4337-a44f-494cbce8a68e")
 	)
-	(label "R5"
-		(at 358.14 54.61 180)
+	(label "R4"
+		(at 358.14 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "94f706af-2211-4f25-8847-9b93c11bea64")
+		(uuid "93b39cf4-35e4-4a3e-809b-9797ea24caf6")
+	)
+	(label "C5"
+		(at 358.14 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "955d12de-c55e-4628-b0b7-4584370c79d8")
 	)
 	(label "R6"
 		(at 35.56 45.72 180)
@@ -7245,25 +7008,35 @@
 		)
 		(uuid "9ccf810a-5774-4cc7-98bf-4fc246a79bb9")
 	)
-	(label "C2"
-		(at 387.35 34.29 0)
+	(label "LED_DATA"
+		(at 387.35 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a18ec825-4e90-4337-9329-3c20b0734d23")
+		(uuid "9f271fbb-b66a-4a27-9ebf-36ffe8213ecc")
 	)
-	(label "C3"
-		(at 387.35 31.75 0)
+	(label "C11"
+		(at 387.35 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "aea44299-77d7-4d6c-95b6-03fe029eab4e")
+		(uuid "a0f1209f-c8e7-4267-bbfa-3bc760a38ba8")
+	)
+	(label "C13"
+		(at 387.35 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a58908bd-cf76-4448-9a9f-047c52be7197")
 	)
 	(label "C12"
 		(at 233.68 25.4 0)
@@ -7274,6 +7047,26 @@
 			(justify left bottom)
 		)
 		(uuid "af3ce6c9-7c58-4d00-a60f-a81fa27df097")
+	)
+	(label "R1"
+		(at 358.14 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1d1b69d-8a99-45e9-af6f-05cbb0ef9c08")
+	)
+	(label "TERMINAL_A"
+		(at 387.35 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2ac895b-9c37-4885-87a1-d02fdad387bc")
 	)
 	(label "R5"
 		(at 35.56 66.04 180)
@@ -7305,6 +7098,16 @@
 		)
 		(uuid "bc6fc10d-c4d4-47c9-a462-276a2c8a5a31")
 	)
+	(label "R2"
+		(at 358.14 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c127257d-b16b-46ca-adae-1e5040eff03a")
+	)
 	(label "C15"
 		(at 287.02 25.4 0)
 		(effects
@@ -7314,16 +7117,6 @@
 			(justify left bottom)
 		)
 		(uuid "c2845e8d-f72b-48b4-aa4e-ab0a621c14dc")
-	)
-	(label "C14"
-		(at 387.35 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4b6294b-f316-4b04-9332-b10077209c2f")
 	)
 	(label "C5"
 		(at 109.22 25.4 0)
@@ -7335,15 +7128,15 @@
 		)
 		(uuid "c6d8619f-7d78-4148-8fd1-361d5c3412ac")
 	)
-	(label "C9"
-		(at 387.35 57.15 0)
+	(label "C16"
+		(at 387.35 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c8690dbf-2590-45f4-8c81-61d176ed0468")
+		(uuid "c8b65709-5991-4b4d-9e1f-9dc0d35a48a2")
 	)
 	(label "R2"
 		(at 205.74 262.89 270)
@@ -7365,15 +7158,15 @@
 		)
 		(uuid "cc16a3f6-a808-4fcb-b581-85945c549545")
 	)
-	(label "C10"
-		(at 387.35 54.61 0)
+	(label "SW"
+		(at 387.35 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "cf549aca-3d1b-44ce-ad83-1f5c77bfc258")
+		(uuid "cc871482-0a26-4f74-8f2a-f9399e045b94")
 	)
 	(label "D_REG"
 		(at 165.1 242.57 270)
@@ -7395,16 +7188,6 @@
 		)
 		(uuid "d6f3acee-ac37-4cde-b8c6-f5a6621c967d")
 	)
-	(label "C13"
-		(at 387.35 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ee16ad9f-ff1b-407c-8ad4-a75de8602dab")
-	)
 	(label "LED_DATA"
 		(at 91.44 260.35 180)
 		(effects
@@ -7415,35 +7198,85 @@
 		)
 		(uuid "f00b4bb0-af8d-4fb2-8b3b-cf347f415148")
 	)
-	(label "C15"
-		(at 387.35 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 326.39 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "000e1bab-bfeb-4ba6-b9cb-fdb1ededf4d0")
+		(property "Reference" "S87"
+			(at 326.39 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
-			(justify left bottom)
 		)
-		(uuid "f495337d-3b75-44b6-b05a-f51afa4e2b6a")
-	)
-	(label "R3"
-		(at 358.14 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(property "Value" "Keyswitch"
+			(at 326.39 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
-			(justify right bottom)
 		)
-		(uuid "f938a850-ea4a-4fa2-82cb-3c3ccaa580b6")
-	)
-	(label "C16"
-		(at 387.35 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(property "Footprint" "PCM_Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2.00u"
+			(at 326.39 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
-			(justify left bottom)
 		)
-		(uuid "fc792e27-6660-412b-9a40-6e1e6faf5ec8")
+		(property "Datasheet" ""
+			(at 326.39 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 326.39 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3447c3d4-e501-4a5c-9e0a-8d69d16553a4")
+		)
+		(pin "1"
+			(uuid "69323d5b-355d-48dc-bfc3-dbae19837fd4")
+		)
+		(instances
+			(project "nes_keyboard"
+				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
+					(reference "S87")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
@@ -8128,6 +7961,84 @@
 			(project "nes_keyboard"
 				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
 					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 102.87 237.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cb35369-2418-4c58-a6a6-59ff606fb71c")
+		(property "Reference" "#PWR034"
+			(at 102.87 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 102.87 232.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 102.87 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5eb50536-8d89-4ddf-8c2c-9c5469ca3a8c")
+		)
+		(instances
+			(project "nes_keyboard"
+				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9635,7 +9546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 93.6752 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -9793,7 +9704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 178.308 203.2 90)
 			(hide yes)
 			(show_name no)
@@ -9842,6 +9753,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 36.83 236.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "197c0f81-2db0-4ab9-96be-24189cb0131f")
+		(property "Reference" "#PWR033"
+			(at 36.83 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 36.83 231.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 36.83 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26bf8fd2-4216-463b-a3ae-779461ed9e50")
+		)
+		(instances
+			(project "nes_keyboard"
+				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 119.38 180.34 0)
 		(unit 1)
@@ -9875,7 +9864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 120.3452 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -10817,85 +10806,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 165.1 273.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2858e6eb-6e0c-48ed-98dc-e70cb935dd7b")
-		(property "Reference" "TP17"
-			(at 167.64 268.4779 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 167.64 271.0179 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 170.18 273.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 273.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 165.1 273.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2eaf0545-7f72-44a2-af63-12be8b01b67a")
-		)
-		(instances
-			(project "nes_keyboard"
-				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
-					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 182.88 97.79 0)
 		(unit 1)
@@ -11313,6 +11223,86 @@
 			(project "nes_keyboard"
 				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
 					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 305.1531 240.5407 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b31cd90-647c-4925-ae70-f9c076fcf9f4")
+		(property "Reference" "S86"
+			(at 305.1531 232.9207 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 305.1531 235.4607 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2.00u"
+			(at 305.1531 240.5407 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 305.1531 240.5407 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 305.1531 240.5407 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f7ea1f25-1af8-40dd-9fb7-9c480947dd65")
+		)
+		(pin "1"
+			(uuid "e7b0c77b-340b-4d68-95f5-5568ce0598ea")
+		)
+		(instances
+			(project "nes_keyboard"
+				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
+					(reference "S86")
 					(unit 1)
 				)
 			)
@@ -13471,7 +13461,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 166.37 209.2452 0)
 			(hide yes)
 			(show_name no)
@@ -14601,7 +14591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 50.4952 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -14644,84 +14634,6 @@
 			(project "nes_keyboard"
 				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
 					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 102.87 237.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c70427e-b7ef-4681-8201-1a5890a521ce")
-		(property "Reference" "#PWR034"
-			(at 102.87 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 102.87 232.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 102.87 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2e0c4ac8-366c-4f25-828b-a022b160e5e9")
-		)
-		(instances
-			(project "nes_keyboard"
-				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -15010,6 +14922,84 @@
 			(project "nes_keyboard"
 				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
 					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 36.83 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62bce297-fb1b-4837-bfa2-b02ee956a1f7")
+		(property "Reference" "#PWR031"
+			(at 36.83 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 36.83 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 36.83 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a09d3e74-98a9-4b82-be24-fc3cbed72cc2")
+		)
+		(instances
+			(project "nes_keyboard"
+				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -15335,7 +15325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 64.4652 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -16046,7 +16036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 78.4352 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -17076,7 +17066,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 380.0348 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -17915,85 +17905,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 220.98 241.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81f7e3e4-2620-4e0e-bd5b-b536353ee3c8")
-		(property "Reference" "TP18"
-			(at 223.52 236.7279 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 223.52 239.2679 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 226.06 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 220.98 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "478d0bec-624b-4641-b92f-06ac4ecfc767")
-		)
-		(instances
-			(project "nes_keyboard"
-				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
-					(reference "TP18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 132.08 104.14 90)
 		(unit 1)
@@ -18482,86 +18393,6 @@
 			(project "nes_keyboard"
 				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
 					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 368.3 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85f76cd3-467e-4813-b8ff-69615f2af2a6")
-		(property "Reference" "J2"
-			(at 368.935 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 368.935 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Hirose:Hirose_DF13-02P-1.25DS_1x02_P1.25mm_Horizontal"
-			(at 368.3 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 368.3 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 368.3 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d8498ab8-2357-48e4-899d-8de69d6943ff")
-		)
-		(pin "1"
-			(uuid "3c1d3017-6a74-455b-8044-d72142c5ddff")
-		)
-		(instances
-			(project "nes_keyboard"
-				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -19268,84 +19099,6 @@
 			(project "nes_keyboard"
 				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
 					(reference "S59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 220.98 242.57 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90a74ff5-c6b3-46ff-8727-60f332a1eaf2")
-		(property "Reference" "#PWR050"
-			(at 220.98 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 220.98 247.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 220.98 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6704b23f-ece5-40b5-8695-d63a56d5d8f2")
-		)
-		(instances
-			(project "nes_keyboard"
-				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
-					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -20262,84 +20015,6 @@
 			(project "nes_keyboard"
 				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 36.83 175.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97dcaff5-affd-4617-922c-cb8937de043d")
-		(property "Reference" "#PWR033"
-			(at 36.83 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 36.83 170.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 36.83 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "61f7e106-8b60-4d84-b260-5b18b8da4762")
-		)
-		(instances
-			(project "nes_keyboard"
-				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -21463,7 +21138,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 168.91 192.278 90)
 			(hide yes)
 			(show_name no)
@@ -21544,7 +21219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 375.92 100.838 90)
 			(hide yes)
 			(show_name no)
@@ -22412,85 +22087,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 374.65 144.78 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b03b7786-4c75-40f4-8e57-4f8a6ee1232f")
-		(property "Reference" "#PWR049"
-			(at 381 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 378.46 144.7799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 374.65 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 374.65 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 374.65 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "576073e2-e765-4516-878d-9c20adc88049")
-		)
-		(instances
-			(project "nes_keyboard"
-				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 170.18 177.8 90)
 		(unit 1)
@@ -22522,7 +22118,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 173.99 176.8348 0)
 			(hide yes)
 			(show_name no)
@@ -23792,7 +23388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 212.09 192.278 90)
 			(hide yes)
 			(show_name no)
@@ -23997,6 +23593,86 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 287.02 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2ba5272-a68a-49da-96a0-c63cd1d77783")
+		(property "Reference" "S85"
+			(at 287.02 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 287.02 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2.00u"
+			(at 287.02 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 287.02 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9abcf6f9-fcd3-4e0f-b6a8-87fea80aefa2")
+		)
+		(pin "1"
+			(uuid "ac3299a6-a983-44d8-adad-76a0655087b2")
+		)
+		(instances
+			(project "nes_keyboard"
+				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
+					(reference "S85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 151.13 241.3 0)
 		(unit 1)
@@ -24070,84 +23746,6 @@
 			(project "nes_keyboard"
 				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
 					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 36.83 236.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4d296b5-7854-4e90-a9c7-d85a78f1b3de")
-		(property "Reference" "#PWR032"
-			(at 36.83 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 36.83 231.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 36.83 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "277b3d9e-358a-4e1c-95f4-046a5d06c498")
-		)
-		(instances
-			(project "nes_keyboard"
-				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -24410,6 +24008,164 @@
 			(project "nes_keyboard"
 				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 270.0471 259.6595 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c61fb44b-59d1-42fd-b808-3980abd2cb2b")
+		(property "Reference" "S88"
+			(at 270.0471 252.0395 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 270.0471 254.5795 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_6.25u"
+			(at 270.0471 259.6595 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.0471 259.6595 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 270.0471 259.6595 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e2e670e7-3aea-4e0c-8aa5-ba18cd484d49")
+		)
+		(pin "1"
+			(uuid "e4572a0c-3884-46ea-b79a-08ba57021845")
+		)
+		(instances
+			(project "nes_keyboard"
+				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
+					(reference "S88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 36.83 200.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7bc5be7-e190-4096-b87c-1f77c4405308")
+		(property "Reference" "#PWR032"
+			(at 36.83 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 36.83 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 36.83 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9ae885c-7628-41b2-9ce0-79677731387b")
+		)
+		(instances
+			(project "nes_keyboard"
+				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -24894,7 +24650,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 168.91 193.802 90)
 			(hide yes)
 			(show_name no)
@@ -24937,85 +24693,6 @@
 			(project "nes_keyboard"
 				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 374.65 142.24 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf70eb41-a2e7-498c-add1-0ac45a0ccbe1")
-		(property "Reference" "#PWR048"
-			(at 370.84 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 378.46 142.2399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 374.65 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 374.65 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 374.65 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4178b56d-7a58-49bd-8c29-b292784dc651")
-		)
-		(instances
-			(project "nes_keyboard"
-				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -26289,84 +25966,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 36.83 200.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0f9f1e9-2411-4e3a-a0a6-2f6dce13779e")
-		(property "Reference" "#PWR031"
-			(at 36.83 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 36.83 195.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 36.83 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "553a9f59-3a64-41bd-a823-1aa1ff395ec9")
-		)
-		(instances
-			(project "nes_keyboard"
-				(path "/940a14ce-a140-402c-8371-5b68e5946dd6"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 60.96 104.14 90)
 		(unit 1)
@@ -26841,7 +26440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 178.308 182.88 90)
 			(hide yes)
 			(show_name no)
@@ -27288,7 +26887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 92.4052 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -29030,7 +28629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 219.4052 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -29112,7 +28711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 106.3752 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -29194,7 +28793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 37.7952 184.15 0)
 			(hide yes)
 			(show_name no)

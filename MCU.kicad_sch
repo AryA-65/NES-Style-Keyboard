@@ -2701,7 +2701,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Memory_Flash:W25Q128JVS"
+		(symbol "Memory_Flash:W25Q128JVE"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2717,7 +2717,7 @@
 					)
 				)
 			)
-			(property "Value" "W25Q128JVS"
+			(property "Value" "W25Q128JVE"
 				(at 7.62 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2727,7 +2727,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+			(property "Footprint" "Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
 				(at 0 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2749,7 +2749,7 @@
 					)
 				)
 			)
-			(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
+			(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
 				(at 0 27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2771,7 +2771,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*SOIC*5.3x5.3mm*P1.27mm*"
+			(property "ki_fp_filters" "WSON*1EP*8x6mm*P1.27mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2782,7 +2782,7 @@
 					)
 				)
 			)
-			(symbol "W25Q128JVS_0_1"
+			(symbol "W25Q128JVE_0_1"
 				(rectangle
 					(start -7.62 10.16)
 					(end 10.16 -10.16)
@@ -2795,7 +2795,7 @@
 					)
 				)
 			)
-			(symbol "W25Q128JVS_1_1"
+			(symbol "W25Q128JVE_1_1"
 				(pin input line
 					(at -10.16 7.62 0)
 					(length 2.54)
@@ -2940,6 +2940,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -12.7 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -3045,6 +3063,159 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Linear:NCP1117-3.3_SOT223"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NCP1117-3.3_SOT223"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
+				(at 2.54 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "REGULATOR LDO 3.3V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NCP1117-3.3_SOT223_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "NCP1117-3.3_SOT223_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3497,6 +3668,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VBUS"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VDD"
 			(power global)
 			(pin_numbers
@@ -3767,7 +4077,7 @@
 		(at 240.03 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5c85dbdc-c3ca-40d1-9a8d-9d9d3bbaedab")
+		(uuid "60330ec4-92dc-44e2-9c4f-3b725539f812")
 	)
 	(junction
 		(at 137.16 36.83)
@@ -3800,12 +4110,6 @@
 		(uuid "8286e8f9-d1cf-4bc3-89d5-bd5b917d36ef")
 	)
 	(junction
-		(at 132.08 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86f5a2cb-f07e-4f37-a1b8-65e747c8c00f")
-	)
-	(junction
 		(at 33.02 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3824,6 +4128,12 @@
 		(uuid "98e751cd-d0c1-4552-8a1d-2b0d313a7ef2")
 	)
 	(junction
+		(at 238.76 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9aadaf47-9268-4701-a65e-d8c92e026b63")
+	)
+	(junction
 		(at 149.86 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3840,6 +4150,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6eb353a-fb81-4603-aade-a7e56ad575dd")
+	)
+	(junction
+		(at 160.02 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5acb23e-5584-44d8-a42f-e1bb1b1f23a5")
+	)
+	(junction
+		(at 240.03 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba07c56f-cd5a-4e3f-983c-f24368cb6146")
+	)
+	(junction
+		(at 35.56 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c354c16e-0bbe-468b-9b22-a1fce8caaeff")
 	)
 	(junction
 		(at 111.76 36.83)
@@ -3864,6 +4192,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d28663e2-f7a5-4c4b-8f63-ea1b81f21082")
+	)
+	(junction
+		(at 132.08 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d31c1e81-a6ca-4cb4-9a9f-a415dc500933")
+	)
+	(junction
+		(at 49.53 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d57f28c0-4857-4324-9f69-2b59da8ee005")
+	)
+	(junction
+		(at 64.77 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d609c219-c262-4fbb-9358-aa7ca38fccf4")
 	)
 	(junction
 		(at 99.06 36.83)
@@ -3901,16 +4247,6 @@
 		(color 0 0 0 0)
 		(uuid "f7b2e938-e0fa-43b8-bdd5-cc6e7b1493f7")
 	)
-	(junction
-		(at 240.03 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd3eb2d7-291c-472b-991d-e6999abfa498")
-	)
-	(no_connect
-		(at 238.76 38.1)
-		(uuid "0fda63e4-5fd3-491c-abe6-a31755cf5b4e")
-	)
 	(no_connect
 		(at 238.76 60.96)
 		(uuid "c7c4be03-048a-4af2-9a5d-c405e459ca1d")
@@ -3918,10 +4254,6 @@
 	(no_connect
 		(at 238.76 58.42)
 		(uuid "ddd54ba2-c799-4214-ade5-82c8cc52decd")
-	)
-	(no_connect
-		(at 238.76 35.56)
-		(uuid "fc7b45be-d3d8-492f-90cb-501268d669b9")
 	)
 	(wire
 		(pts
@@ -3975,7 +4307,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 55.88) (xy 132.08 55.88)
+			(xy 125.73 55.88) (xy 132.08 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4002,6 +4334,16 @@
 			(type default)
 		)
 		(uuid "096bc2f2-6218-4253-90ad-8af6f6562bb2")
+	)
+	(wire
+		(pts
+			(xy 240.03 35.56) (xy 238.76 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e7eafa-bd78-44f7-a514-226c13a82ad1")
 	)
 	(wire
 		(pts
@@ -4135,7 +4477,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 76.2) (xy 49.53 76.2)
+			(xy 38.1 76.2) (xy 49.53 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4245,7 +4587,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 127) (xy 49.53 127)
+			(xy 43.18 127) (xy 49.53 127)
 		)
 		(stroke
 			(width 0)
@@ -4305,7 +4647,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 83.82) (xy 49.53 83.82)
+			(xy 38.1 83.82) (xy 49.53 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4315,7 +4657,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 124.46) (xy 49.53 124.46)
+			(xy 43.18 124.46) (xy 49.53 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4345,7 +4687,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 120.65) (xy 148.59 120.65)
+			(xy 138.43 120.65) (xy 148.59 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4475,6 +4817,26 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 170.18) (xy 67.31 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5024c663-22f5-466d-9745-db5b645e013b")
+	)
+	(wire
+		(pts
+			(xy 33.02 170.18) (xy 35.56 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50b645f9-9c94-4e7a-b49c-1d5ad8f49ecc")
+	)
+	(wire
+		(pts
 			(xy 240.03 43.18) (xy 240.03 45.72)
 		)
 		(stroke
@@ -4512,6 +4874,16 @@
 			(type default)
 		)
 		(uuid "532338a2-1373-492a-b596-8706f2e81848")
+	)
+	(wire
+		(pts
+			(xy 160.02 130.81) (xy 161.29 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a50475-595e-476f-8ba4-959b62f3bd23")
 	)
 	(wire
 		(pts
@@ -4555,7 +4927,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 66.04) (xy 40.64 66.04)
+			(xy 31.75 66.04) (xy 40.64 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4605,6 +4977,26 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 177.8) (xy 49.53 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d9d9221-bdc9-415b-869d-40ffd754859a")
+	)
+	(wire
+		(pts
+			(xy 41.91 170.18) (xy 35.56 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f503678-e6ba-4078-823b-350704115f7f")
+	)
+	(wire
+		(pts
 			(xy 165.1 88.9) (xy 158.75 88.9)
 		)
 		(stroke
@@ -4635,6 +5027,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 180.34) (xy 64.77 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "655d6753-f2ca-4754-a463-1ad32669ea56")
+	)
+	(wire
+		(pts
 			(xy 46.99 135.89) (xy 46.99 134.62)
 		)
 		(stroke
@@ -4645,7 +5047,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 48.26) (xy 241.3 48.26)
+			(xy 240.03 48.26) (xy 248.92 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4665,7 +5067,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 115.57) (xy 148.59 115.57)
+			(xy 35.56 180.34) (xy 35.56 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c72d7d1-dabc-483f-ba8f-0844c60047bc")
+	)
+	(wire
+		(pts
+			(xy 138.43 115.57) (xy 148.59 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4675,7 +5087,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 91.44) (xy 49.53 91.44)
+			(xy 38.1 91.44) (xy 49.53 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4715,6 +5127,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 170.18) (xy 57.15 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "734c0805-fe1e-45b0-9ece-5ba3f2e11853")
+	)
+	(wire
+		(pts
 			(xy 111.76 26.67) (xy 111.76 27.94)
 		)
 		(stroke
@@ -4725,7 +5147,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 118.11) (xy 148.59 118.11)
+			(xy 138.43 118.11) (xy 148.59 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4835,13 +5257,23 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 130.81) (xy 158.75 132.08)
+			(xy 35.56 180.34) (xy 49.53 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "87ace855-bc0f-4168-9079-46ac4a607917")
+		(uuid "857b0c2f-dec5-4186-98d8-0e39652eb3ee")
+	)
+	(wire
+		(pts
+			(xy 49.53 180.34) (xy 64.77 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89cd398d-8194-4299-bbcb-4650a3e1aecb")
 	)
 	(wire
 		(pts
@@ -4855,7 +5287,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 123.19) (xy 148.59 123.19)
+			(xy 138.43 123.19) (xy 148.59 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4965,6 +5397,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 168.91) (xy 64.77 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f36f509-d234-43c5-bb15-c567cccedf32")
+	)
+	(wire
+		(pts
 			(xy 45.72 36.83) (xy 45.72 35.56)
 		)
 		(stroke
@@ -4982,6 +5424,16 @@
 			(type default)
 		)
 		(uuid "a07171d0-5b47-442f-af6c-27fca08eda8f")
+	)
+	(wire
+		(pts
+			(xy 238.76 35.56) (xy 238.76 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ce0b8d-c310-462a-8e8d-eaa35f473c87")
 	)
 	(wire
 		(pts
@@ -5025,7 +5477,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 55.88) (xy 161.29 55.88)
+			(xy 167.64 55.88) (xy 161.29 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5065,7 +5517,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 68.58) (xy 40.64 68.58)
+			(xy 31.75 68.58) (xy 40.64 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5075,7 +5527,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 104.14) (xy 49.53 104.14)
+			(xy 43.18 104.14) (xy 49.53 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5155,7 +5607,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 81.28) (xy 49.53 81.28)
+			(xy 38.1 81.28) (xy 49.53 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5185,13 +5637,23 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 113.03) (xy 148.59 113.03)
+			(xy 138.43 113.03) (xy 148.59 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cb3669d4-eb9f-4458-a23d-2f16e9c65a3c")
+	)
+	(wire
+		(pts
+			(xy 35.56 170.18) (xy 35.56 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cce142e6-66d3-4af3-b19b-e7c5e5909c00")
 	)
 	(wire
 		(pts
@@ -5225,13 +5687,33 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 88.9) (xy 49.53 88.9)
+			(xy 49.53 181.61) (xy 49.53 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d03d20cd-e7a7-4fea-b993-3d839afbabcf")
+	)
+	(wire
+		(pts
+			(xy 38.1 88.9) (xy 49.53 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d10a9e20-9871-4597-a671-daea32545ae2")
+	)
+	(wire
+		(pts
+			(xy 64.77 171.45) (xy 64.77 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d125611d-ea09-4b54-9f21-abe2d3b62a3c")
 	)
 	(wire
 		(pts
@@ -5255,7 +5737,17 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 45.72) (xy 241.3 45.72)
+			(xy 74.93 170.18) (xy 76.2 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5f3611a-f7f8-460f-bfe0-6233a562ac7f")
+	)
+	(wire
+		(pts
+			(xy 240.03 45.72) (xy 248.92 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5375,7 +5867,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 86.36) (xy 49.53 86.36)
+			(xy 38.1 86.36) (xy 49.53 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5435,6 +5927,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 132.08) (xy 160.02 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebea8935-efe8-4411-9631-88a2cb73abd9")
+	)
+	(wire
+		(pts
 			(xy 124.46 26.67) (xy 124.46 27.94)
 		)
 		(stroke
@@ -5485,16 +5987,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 35.56) (xy 260.35 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed5a7bd8-3d7c-4b86-b3ab-fa7cdbef7ce9")
-	)
-	(wire
-		(pts
 			(xy 45.72 58.42) (xy 49.53 58.42)
 		)
 		(stroke
@@ -5532,6 +6024,16 @@
 			(type default)
 		)
 		(uuid "efb01f23-5583-4108-aa89-d356fb0a2f35")
+	)
+	(wire
+		(pts
+			(xy 160.02 130.81) (xy 158.75 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2cce158-d13d-4fad-8831-12457d1675f9")
 	)
 	(wire
 		(pts
@@ -5585,7 +6087,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 114.3) (xy 49.53 114.3)
+			(xy 43.18 114.3) (xy 49.53 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5625,16 +6127,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 44.45) (xy 260.35 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fadf9b15-4368-444e-865b-a2bf200a5c69")
-	)
-	(wire
-		(pts
 			(xy 33.02 27.94) (xy 33.02 26.67)
 		)
 		(stroke
@@ -5644,12 +6136,12 @@
 		(uuid "fb667f7f-18c4-4e98-a70a-0be0ecfbf926")
 	)
 	(label "SWD"
-		(at 48.26 127 180)
+		(at 43.18 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "03257e14-a66e-4195-b302-0ac8339a9eb1")
 	)
@@ -5664,66 +6156,116 @@
 		(uuid "18247fcd-7410-4489-99de-f90be8749494")
 	)
 	(label "QSPI_SS"
-		(at 48.26 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1d2bc57d-933c-43d9-95fe-1bfe440af324")
-	)
-	(label "USB_D+"
-		(at 39.37 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2326fb01-bf0e-4084-a8f7-dc6386e6578d")
-	)
-	(label "XIN"
-		(at 48.26 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "256241e5-9ddc-409c-a14f-dd264c31fb5c")
-	)
-	(label "QSPI_SD1"
-		(at 147.32 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2b2d325f-6a29-4a9a-a311-aace546eeb07")
-	)
-	(label "QSPI_SD3"
-		(at 147.32 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2e07bd21-f565-4b43-a17f-aa62ce81f3f6")
-	)
-	(label "EN"
-		(at 46.99 58.42 0)
+		(at 38.1 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "442d3557-5699-4ca6-ab68-ddd9015fb456")
+		(uuid "1d2bc57d-933c-43d9-95fe-1bfe440af324")
 	)
-	(label "SWD"
+	(label "USB_D+"
+		(at 31.75 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2326fb01-bf0e-4084-a8f7-dc6386e6578d")
+	)
+	(label "XIN"
+		(at 43.18 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "256241e5-9ddc-409c-a14f-dd264c31fb5c")
+	)
+	(label "QSPI_SD1"
+		(at 138.43 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b2d325f-6a29-4a9a-a311-aace546eeb07")
+	)
+	(label "QSPI_SD3"
+		(at 138.43 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e07bd21-f565-4b43-a17f-aa62ce81f3f6")
+	)
+	(label "QSPI_SD1"
+		(at 38.1 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b10d618-780e-4aed-ae72-7eec93fb0e67")
+	)
+	(label "USB_D-"
+		(at 248.92 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5331e503-d292-4d46-a849-ae3850044c7b")
+	)
+	(label "SWCLK"
+		(at 43.18 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54cabfd8-f6d7-41c0-80dc-202369951cb3")
+	)
+	(label "XOUT"
+		(at 167.64 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56d8fc37-48c8-46c4-9fe0-8358f30c3125")
+	)
+	(label "QSPI_SD3"
+		(at 38.1 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65cb62a3-abf8-4804-a710-7e67185a6e71")
+	)
+	(label "XIN"
+		(at 125.73 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67600f5d-32ba-4c2c-aec7-7111c6d48630")
+	)
+	(label "SWCLK"
 		(at 242.57 106.68 270)
 		(effects
 			(font
@@ -5731,75 +6273,15 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "48471158-fc31-4fc5-b532-c737b49ac6aa")
-	)
-	(label "QSPI_SD1"
-		(at 48.26 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4b10d618-780e-4aed-ae72-7eec93fb0e67")
-	)
-	(label "USB_D-"
-		(at 241.3 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5331e503-d292-4d46-a849-ae3850044c7b")
-	)
-	(label "SWCLK"
-		(at 48.26 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "54cabfd8-f6d7-41c0-80dc-202369951cb3")
-	)
-	(label "XOUT"
-		(at 162.56 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "56d8fc37-48c8-46c4-9fe0-8358f30c3125")
-	)
-	(label "QSPI_SD3"
-		(at 48.26 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "65cb62a3-abf8-4804-a710-7e67185a6e71")
-	)
-	(label "XIN"
-		(at 129.54 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "67600f5d-32ba-4c2c-aec7-7111c6d48630")
+		(uuid "682eb69e-4af0-456e-8178-fae811681098")
 	)
 	(label "USB_D+"
-		(at 241.3 48.26 0)
+		(at 248.92 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6ccd1782-72dc-4a8b-8422-e0ffb9f0cfd7")
 	)
@@ -5814,26 +6296,26 @@
 		(uuid "6f3766bd-3485-4df7-8436-7866835cad53")
 	)
 	(label "USB_D-"
-		(at 39.37 68.58 180)
+		(at 31.75 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "882e807b-10cf-4de6-94ee-bb46b9bce07a")
 	)
 	(label "QSPI_SCLK"
-		(at 147.32 113.03 180)
+		(at 138.43 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "9717353a-ddbc-40d3-a2a6-8f6439e067f8")
 	)
-	(label "SWCLK"
+	(label "SWD"
 		(at 229.87 106.68 270)
 		(effects
 			(font
@@ -5841,55 +6323,55 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "af967c25-00f3-48a2-91c3-9b489da7b847")
+		(uuid "9eed4834-07a3-4c76-ac4b-95ee0e32af8f")
 	)
 	(label "QSPI_SD0"
-		(at 48.26 81.28 180)
+		(at 38.1 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "b0a79293-2b87-4866-b724-45ef4cbe8cbb")
 	)
 	(label "QSPI_SD0"
-		(at 147.32 115.57 180)
+		(at 138.43 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "b1262fac-2b80-4841-8741-eaf8b4a642e2")
 	)
 	(label "QSPI_SD2"
-		(at 48.26 86.36 180)
+		(at 38.1 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "b82f24c9-ef02-44e4-b95e-e246b943ae87")
 	)
 	(label "XOUT"
-		(at 48.26 114.3 180)
+		(at 43.18 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ca1c7269-3aab-4f33-83c4-4ff6c9821056")
 	)
 	(label "QSPI_SCLK"
-		(at 48.26 91.44 180)
+		(at 38.1 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "d0428fb0-55c6-4d8c-8fce-47bc61bee2a0")
 	)
@@ -5904,12 +6386,12 @@
 		(uuid "e1df5a50-a4a2-45da-8dab-66df5dfd5981")
 	)
 	(label "QSPI_SD2"
-		(at 147.32 120.65 180)
+		(at 138.43 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ffabed46-5670-436d-9f9e-4aa6e64756d1")
 	)
@@ -6355,7 +6837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 88.5952 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6434,7 +6916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 133.35 112.268 90)
 			(hide yes)
 			(show_name no)
@@ -6477,6 +6959,85 @@
 			(project "nes_keyboard"
 				(path "/940a14ce-a140-402c-8371-5b68e5946dd6/475a168c-6f87-44a7-99f7-d5cb699cf88f"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 33.02 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ac46d12-faf1-45df-8430-4a2b80b7067c")
+		(property "Reference" "#PWR014"
+			(at 36.83 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 29.21 170.1799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 33.02 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ce351fe-c3bd-4d65-897f-85abde1c8d6e")
+		)
+		(instances
+			(project "nes_keyboard"
+				(path "/940a14ce-a140-402c-8371-5b68e5946dd6/475a168c-6f87-44a7-99f7-d5cb699cf88f"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6582,7 +7143,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 29.21 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6592,7 +7153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 33.02 54.9148 0)
 			(hide yes)
 			(show_name no)
@@ -6663,7 +7224,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 49.53 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6674,7 +7235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 46.6852 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6981,7 +7542,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 179.07 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6992,7 +7553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 176.2252 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7035,6 +7596,85 @@
 			(project "nes_keyboard"
 				(path "/940a14ce-a140-402c-8371-5b68e5946dd6/475a168c-6f87-44a7-99f7-d5cb699cf88f"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 76.2 170.18 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a0bdf36-97c8-471f-a71d-647e8b0ff2f6")
+		(property "Reference" "#PWR015"
+			(at 72.39 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 80.01 170.1799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e88f92f-dd01-4fdd-bdb5-209c6fb6ad6d")
+		)
+		(instances
+			(project "nes_keyboard"
+				(path "/940a14ce-a140-402c-8371-5b68e5946dd6/475a168c-6f87-44a7-99f7-d5cb699cf88f"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7119,11 +7759,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 35.56 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32a5a6fb-47c6-460f-95d0-cf66fc4ee825")
+		(property "Reference" "C23"
+			(at 39.37 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 39.37 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 36.5252 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 35.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa4bc996-45a3-49b2-a7cd-a3f9cf484dce")
+		)
+		(pin "2"
+			(uuid "9788f8c1-42d7-48c1-8b68-092d2823e125")
+		)
+		(instances
+			(project "nes_keyboard"
+				(path "/940a14ce-a140-402c-8371-5b68e5946dd6/475a168c-6f87-44a7-99f7-d5cb699cf88f"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_RaspberryPi:RP2040")
 		(at 74.93 96.52 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -7152,7 +7874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm_ThermalVias"
 			(at 74.93 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -7527,7 +8249,7 @@
 		(at 223.52 45.72 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -7648,6 +8370,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 64.77 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51fbe8b5-53f0-46ba-ab47-e6d277d50966")
+		(property "Reference" "#PWR028"
+			(at 64.77 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 64.77 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 64.77 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b1e95b4-84c1-4866-8897-d78b63c7ae62")
+		)
+		(instances
+			(project "nes_keyboard"
+				(path "/940a14ce-a140-402c-8371-5b68e5946dd6/475a168c-6f87-44a7-99f7-d5cb699cf88f"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 142.24 62.23 0)
 		(unit 1)
@@ -7720,84 +8520,6 @@
 			(project "nes_keyboard"
 				(path "/940a14ce-a140-402c-8371-5b68e5946dd6/475a168c-6f87-44a7-99f7-d5cb699cf88f"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 260.35 45.72 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5481ceae-d53c-4a08-b6bb-78974c6337d8")
-		(property "Reference" "#PWR015"
-			(at 260.35 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 260.35 50.2178 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 260.35 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "38d3d967-5df1-4a26-a712-c2592a00cc50")
-		)
-		(instances
-			(project "nes_keyboard"
-				(path "/940a14ce-a140-402c-8371-5b68e5946dd6/475a168c-6f87-44a7-99f7-d5cb699cf88f"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7992,7 +8714,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 157.48 57.658 90)
 			(hide yes)
 			(show_name no)
@@ -8141,7 +8863,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 102.87 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8152,7 +8874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 100.0252 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8387,7 +9109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 44.45 67.818 90)
 			(hide yes)
 			(show_name no)
@@ -8625,7 +9347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 153.3652 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -9022,7 +9744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 136.652 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -9104,7 +9826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 40.132 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -9263,7 +9985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 131.1148 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9316,7 +10038,7 @@
 		(at 142.24 55.88 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -9343,7 +10065,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 142.24 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9442,7 +10164,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 166.37 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9453,7 +10175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 163.5252 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9524,7 +10246,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 140.97 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9535,7 +10257,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 138.1252 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9692,7 +10414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 44.45 66.802 90)
 			(hide yes)
 			(show_name no)
@@ -9774,7 +10496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 60.6552 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9902,41 +10624,39 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_Flash:W25Q128JVS")
-		(at 158.75 118.11 0)
+		(lib_id "Regulator_Linear:NCP1117-3.3_SOT223")
+		(at 49.53 170.18 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cc5819c3-afa8-4805-bdce-c237b8581847")
+		(uuid "cae467a9-d2d0-4cd2-abbe-fc09468f107b")
 		(property "Reference" "U2"
-			(at 170.18 116.8399 0)
+			(at 49.53 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "W25Q128JVS"
-			(at 170.18 119.3799 0)
+		(property "Value" "NCP1117-3.3_SOT223"
+			(at 49.53 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
-			(at 158.75 95.25 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 49.53 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9946,8 +10666,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-			(at 158.75 92.71 0)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
+			(at 52.07 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9957,8 +10677,8 @@
 				)
 			)
 		)
-		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
-			(at 158.75 90.17 0)
+		(property "Description" "1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"
+			(at 49.53 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9967,35 +10687,99 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "7"
-			(uuid "1a6445d2-b009-4479-ae05-790ff3dd80b2")
-		)
-		(pin "6"
-			(uuid "4dee0918-9c95-49b8-8c62-e29da9d1df75")
-		)
-		(pin "1"
-			(uuid "fbf149be-415f-46be-87bb-3e26b33a74f4")
-		)
-		(pin "3"
-			(uuid "98f3cb42-f50a-4940-a02a-c7cc8816acd8")
 		)
 		(pin "2"
-			(uuid "dc68b80b-add9-4794-a55f-bcb411ae7560")
+			(uuid "dbfac265-8184-4390-bea9-ef09bc5adcd3")
 		)
-		(pin "4"
-			(uuid "f3b95afe-1d3f-48f1-a4d8-58243bd4f535")
+		(pin "3"
+			(uuid "c9290c28-5cd4-4298-9260-784066d8a2e6")
 		)
-		(pin "5"
-			(uuid "1b3f52f9-c692-49c2-b70f-4669b0b4ba2e")
-		)
-		(pin "8"
-			(uuid "a3a48166-f68f-4ef2-a02a-7d3beebef1f6")
+		(pin "1"
+			(uuid "42a38aad-afeb-40c7-94f1-e5c63102843c")
 		)
 		(instances
 			(project "nes_keyboard"
 				(path "/940a14ce-a140-402c-8371-5b68e5946dd6/475a168c-6f87-44a7-99f7-d5cb699cf88f"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 240.03 35.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8775066-4f4f-47e9-8edb-5151e251fd9d")
+		(property "Reference" "#PWR045"
+			(at 236.22 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 243.84 35.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 240.03 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1eecdf1f-baca-42c3-beff-ce20531ff1c8")
+		)
+		(instances
+			(project "nes_keyboard"
+				(path "/940a14ce-a140-402c-8371-5b68e5946dd6/475a168c-6f87-44a7-99f7-d5cb699cf88f"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -10024,7 +10808,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 115.57 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10035,7 +10819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 112.7252 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10085,7 +10869,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 158.75 132.08 0)
+		(at 160.02 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10096,7 +10880,7 @@
 		(fields_autoplaced yes)
 		(uuid "e587bffe-9fc5-46dc-aca4-b9c44ee91805")
 		(property "Reference" "#PWR010"
-			(at 158.75 138.43 0)
+			(at 160.02 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10107,7 +10891,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 135.89 0)
+			(at 160.02 135.89 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -10117,7 +10901,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 132.08 0)
+			(at 160.02 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10128,7 +10912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 132.08 0)
+			(at 160.02 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10139,7 +10923,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 140.97 0)
+			(at 160.02 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10156,6 +10940,85 @@
 			(project "nes_keyboard"
 				(path "/940a14ce-a140-402c-8371-5b68e5946dd6/475a168c-6f87-44a7-99f7-d5cb699cf88f"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 240.03 30.48 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e66e83b9-345a-47c5-8f91-c1792bd61d9f")
+		(property "Reference" "#PWR04"
+			(at 236.22 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 243.84 30.4799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 240.03 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f519a3d6-001c-4170-9f3b-df5b233f2d59")
+		)
+		(instances
+			(project "nes_keyboard"
+				(path "/940a14ce-a140-402c-8371-5b68e5946dd6/475a168c-6f87-44a7-99f7-d5cb699cf88f"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -10184,7 +11047,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 36.83 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10195,7 +11058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 33.9852 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10244,19 +11107,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 260.35 40.64 0)
+		(lib_id "Memory_Flash:W25Q128JVE")
+		(at 158.75 118.11 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e9d96954-eeb5-4f24-ab31-a7b61cec5381")
-		(property "Reference" "F1"
-			(at 262.89 39.3699 0)
+		(uuid "e81e2bd4-2032-4a6c-9f56-d40738dc8f1b")
+		(property "Reference" "U3"
+			(at 170.18 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10266,8 +11129,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500mA"
-			(at 262.89 41.9099 0)
+		(property "Value" "W25Q128JVE"
+			(at 170.18 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10277,8 +11140,110 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 258.572 40.64 90)
+		(property "Footprint" "Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
+			(at 158.75 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+			(at 158.75 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
+			(at 158.75 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "f3d98e6d-1925-4b52-b99a-5f92789eda0b")
+		)
+		(pin "7"
+			(uuid "002ce300-aaa3-45ba-8361-48cea444b2a8")
+		)
+		(pin "4"
+			(uuid "0e981773-88b1-4f66-8d2a-041bf6b91eda")
+		)
+		(pin "6"
+			(uuid "a821686c-9a6b-472c-b3b8-f840e7acf495")
+		)
+		(pin "3"
+			(uuid "71017a8d-b92b-4b71-a0e0-6a2486a8d2a3")
+		)
+		(pin "5"
+			(uuid "78e4f91c-6695-447a-8513-d19177714ab0")
+		)
+		(pin "2"
+			(uuid "2d02be66-f529-46b7-b7ad-3a6410281e8f")
+		)
+		(pin "1"
+			(uuid "bcb90f50-fd54-48e0-a19c-1b8679284953")
+		)
+		(pin "8"
+			(uuid "fa168be5-656a-4afe-a7be-a582b42bf46f")
+		)
+		(instances
+			(project "nes_keyboard"
+				(path "/940a14ce-a140-402c-8371-5b68e5946dd6/475a168c-6f87-44a7-99f7-d5cb699cf88f"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 64.77 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e939bab9-6b0c-47a8-889b-18604d425be2")
+		(property "Reference" "C24"
+			(at 60.96 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 60.96 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 65.7352 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10289,7 +11254,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 40.64 0)
+			(at 64.77 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "933e2457-4ee5-4ed4-877b-c1d7474aaf0d")
+		)
+		(pin "2"
+			(uuid "9a07702c-85b3-4ea7-8b4f-9c75ac5695a4")
+		)
+		(instances
+			(project "nes_keyboard"
+				(path "/940a14ce-a140-402c-8371-5b68e5946dd6/475a168c-6f87-44a7-99f7-d5cb699cf88f"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 71.12 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9d96954-eeb5-4f24-ab31-a7b61cec5381")
+		(property "Reference" "F1"
+			(at 71.12 163.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500mA"
+			(at 71.12 166.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 71.12 171.958 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10300,7 +11345,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 260.35 40.64 0)
+			(at 71.12 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10348,7 +11393,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 128.27 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10359,7 +11404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 125.4252 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10402,84 +11447,6 @@
 			(project "nes_keyboard"
 				(path "/940a14ce-a140-402c-8371-5b68e5946dd6/475a168c-6f87-44a7-99f7-d5cb699cf88f"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 260.35 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f10b709c-8d1d-4c4c-b02f-13cdead62897")
-		(property "Reference" "#PWR028"
-			(at 260.35 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VDD"
-			(at 260.35 30.4519 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 260.35 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "75763e33-97c3-448e-aa56-9306b2f5189f")
-		)
-		(instances
-			(project "nes_keyboard"
-				(path "/940a14ce-a140-402c-8371-5b68e5946dd6/475a168c-6f87-44a7-99f7-d5cb699cf88f"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -10586,7 +11553,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 168.91 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10597,7 +11564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 166.0652 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -10646,85 +11613,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 240.03 30.48 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd24fbbf-966d-499b-ab44-7c6266fcf8e7")
-		(property "Reference" "#PWR014"
-			(at 236.22 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VDD"
-			(at 243.84 30.4799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 240.03 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ec28e99e-33d1-412d-83b4-975bcf3bdee6")
-		)
-		(instances
-			(project "nes_keyboard"
-				(path "/940a14ce-a140-402c-8371-5b68e5946dd6/475a168c-6f87-44a7-99f7-d5cb699cf88f"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 149.86 31.75 0)
 		(unit 1)
@@ -10747,7 +11635,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 153.67 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10758,7 +11646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 150.8252 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10801,6 +11689,84 @@
 			(project "nes_keyboard"
 				(path "/940a14ce-a140-402c-8371-5b68e5946dd6/475a168c-6f87-44a7-99f7-d5cb699cf88f"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 49.53 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffd6a0e0-37d8-4961-ba80-aec4e6d43b58")
+		(property "Reference" "#PWR06"
+			(at 49.53 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 185.42 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a8ec9cb-052d-4d1d-90b0-85cb8aceb886")
+		)
+		(instances
+			(project "nes_keyboard"
+				(path "/940a14ce-a140-402c-8371-5b68e5946dd6/475a168c-6f87-44a7-99f7-d5cb699cf88f"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
