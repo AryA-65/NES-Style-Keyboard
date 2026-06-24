@@ -1,0 +1,2027 @@
+Cmp-Mod V01 Created by PcbNew   date = 2026-06-23T22:01:52
+
+BeginCmp
+TimeStamp = 0492c29a-3293-4ea9-9b39-09f23ed50251
+Path = /03f15400-cbcd-4477-a80d-fd0cf4a3d146
+Reference = S19;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 0bad7542-004e-4e9f-b5b6-973c96b856d4
+Path = /6f709f41-d464-4744-913a-b4bd73a636dc
+Reference = S53;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 0c3d27c8-4268-48ba-8a21-e8a31841e187
+Path = /df23bd4c-0a53-4d75-9d1d-defb6407a128
+Reference = S4;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 0f76ca2c-24bc-4cc1-a88e-3482034a8422
+Path = /766e6e34-b7bc-492c-aa56-8cdd4325e270
+Reference = S45;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.50u;
+EndCmp
+
+BeginCmp
+TimeStamp = 11bf40ba-c642-4e29-8f1c-6eee62a18ff6
+Path = /5068b462-059b-4a52-ad64-d3e854da5e29
+Reference = H6;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_2.2mm_M2_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 11ffd56a-4f38-48cc-8815-fea72eb84d3e
+Path = /340cad56-bac6-4ebc-8530-a465ada4def8
+Reference = S78;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_6.25u;
+EndCmp
+
+BeginCmp
+TimeStamp = 16926361-78bf-4da2-9f25-f376d8cb5ac1
+Path = /d4ce89d8-dbfc-4693-9040-827bbd8dd42c
+Reference = S22;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 19a8c5e4-2ee0-40c2-b491-355e509c5944
+Path = /4174199d-5d39-4a60-8177-2af06680c18c
+Reference = S54;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 1c3c9387-cb67-4b6d-892f-4622ede311bc
+Path = /fca95a37-ba65-4f54-b06f-318a759a99c5
+Reference = H1;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_2.2mm_M2_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 1de8b7b8-cb8a-47ce-97fe-d4dcae42e7ec
+Path = /78c1090e-5b20-4b90-b75f-3492b0eed32a
+Reference = S39;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 2158944c-4862-4ecd-8342-69a1fd029a61
+Path = /5a5d8be1-aff4-4952-acf0-0abe726f1490
+Reference = S30;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_2.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 2631dd6e-23f4-4d92-b346-14a233435d3d
+Path = /06100439-4212-4aa3-91f7-e6d31914de41
+Reference = S82;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 26896625-a804-4985-a9a0-24c2f665b4e5
+Path = /150ed7ed-b9d9-409d-b076-13c848302f09
+Reference = S36;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 26dac8e1-7a3d-4cd5-8a57-f9b4fafa9f3a
+Path = /94f4d00b-7d32-4744-aaf9-927de13db9b0
+Reference = S77;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.25u;
+EndCmp
+
+BeginCmp
+TimeStamp = 28da0365-0c03-49e4-8682-e7ae42577c2d
+Path = /c61fb44b-59d1-42fd-b808-3980abd2cb2b
+Reference = S88;
+ValeurCmp = Keyswitch;
+IdModule  = PCM_Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_6.25u;
+EndCmp
+
+BeginCmp
+TimeStamp = 291d905d-b762-4470-8c82-e6284c0ce476
+Path = /3c86ba41-8979-46fb-85e1-28c304d69c08
+Reference = S14;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 2b93c2ab-31c3-476d-8d18-5c5b68cf7cf3
+Path = /cf923041-9cdf-442c-b686-de7c2b6231fa
+Reference = H9;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_2.2mm_M2_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 2d9790c4-445d-4373-a012-1019be69a1ff
+Path = /125bb777-5f9e-4c9c-b19e-420d31c45e8c
+Reference = S84;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 2f51b8ff-7680-494d-ae24-85c1e7d96c61
+Path = /4d783d3a-7c74-4678-b41d-28ef2fe0b116
+Reference = S17;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 2f5d3b83-00f0-431a-98ea-96220e722202
+Path = /bae6434d-05ce-45f0-bcf3-089e12972771
+Reference = H5;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_2.2mm_M2_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 3318cad8-249b-41ff-91b6-283ca884cbf5
+Path = /0a580eef-e363-433a-99cf-b430ab816361
+Reference = S1;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 33fd55af-e4d8-409d-88ed-c18e3683ed6a
+Path = /1c362d12-46f8-4ba0-a9cc-bfdeba508ad2
+Reference = S47;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.75u;
+EndCmp
+
+BeginCmp
+TimeStamp = 3418ff54-0613-4c69-be98-2bf60bed3661
+Path = /c2ba5272-a68a-49da-96a0-c63cd1d77783
+Reference = S85;
+ValeurCmp = Keyswitch;
+IdModule  = PCM_Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 35143fb2-a563-42b0-8feb-1d4b11ee65c5
+Path = /34c7afac-08bb-4cd7-9272-390bb02dff9f
+Reference = RV1;
+ValeurCmp = R_Potentiometer;
+IdModule  = PTA6043_2015DPB103:TRIM_PTA6043-2015DPB103;
+EndCmp
+
+BeginCmp
+TimeStamp = 385753c5-37f5-4869-a6ac-c07681164250
+Path = /2b31cd90-647c-4925-ae70-f9c076fcf9f4
+Reference = S86;
+ValeurCmp = Keyswitch;
+IdModule  = PCM_Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 3918f9c7-d2ff-4011-a804-0f88a0de1c91
+Path = /226c29ce-db2e-4194-adc8-b607a2e44c0e
+Reference = S71;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 3afcc28f-1cfa-43be-9d8d-9be15d04cc01
+Path = /5ff87a3a-24cc-41be-beee-4c01afe07794
+Reference = S44;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 3ee4a632-1b7a-48de-bc02-70cd03fcd035
+Path = /c945c3ba-5855-4cc5-a9d5-38f617ccf0d0
+Reference = S11;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 420db779-47b4-42d2-b86c-8b7e3a0536c9
+Path = /9e7366f3-da31-48c5-aab4-42e52833cca9
+Reference = S74;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 421c4357-f8b6-4bf3-b6e4-32f190474242
+Path = /28831eff-216c-49a1-b700-ff2f5a5e9f32
+Reference = S16;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 431b075d-f582-4585-9627-ec790688ec8e
+Path = /9822bc68-c407-4852-a7f6-524f985c17c6
+Reference = S72;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.75u;
+EndCmp
+
+BeginCmp
+TimeStamp = 442ae2c9-eb69-4265-91b5-a584cc1179cc
+Path = /7fc6b0f5-2bbc-4254-bd12-8abdb8be35ff
+Reference = S83;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 44f770ef-d5d9-41d5-a81d-c07cf967d6d9
+Path = /717e235f-f6fb-4748-95bb-4011f9cfb529
+Reference = S49;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 45883476-abc6-4754-bbf6-2b3485a0f939
+Path = /d28c651d-b401-4eee-a69d-6cf731c663fd
+Reference = S34;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 481374b0-a67e-4cd3-bd68-1344792545ad
+Path = /b2ac3350-fedb-4b68-babe-0aedb80058ba
+Reference = S80;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 4a25f3cf-fa46-4740-9a25-d765a646cdb4
+Path = /053c5e31-91b7-4f9c-88be-4cb961323a0d
+Reference = S61;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_2.25u;
+EndCmp
+
+BeginCmp
+TimeStamp = 4bfb3b8b-5be1-4390-a623-59684c4f6da3
+Path = /1fd61d5b-15b6-49fb-b041-c0141421fa44
+Reference = S10;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 4f7f3f8d-238f-425d-9d4f-0d620a06746a
+Path = /0041c744-5dd0-4ed8-957b-e3f71c90413a
+Reference = S37;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 592aab15-f0a5-4de7-883c-4a11defa9d71
+Path = /00160819-c868-469a-8235-6941e8db4773
+Reference = S41;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 5a890041-1c31-4b6f-bebc-94ce5bfb34ad
+Path = /75e15f81-c0e3-4f15-8eb7-afd7d2546df4
+Reference = S46;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 626337cd-abda-469c-ab76-3f5486887384
+Path = /57dd22f2-b6d8-4c09-9643-0271d2c2752d
+Reference = H3;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_2.2mm_M2_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 62832399-4c9a-45a5-99a1-882563248c54
+Path = /c1c0b74b-a435-470e-a640-c914185d8567
+Reference = H4;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_2.2mm_M2_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 667a4529-89c4-4f27-8a89-dbe768f10ed6
+Path = /faf4ef3c-eb6f-4a07-a757-a81e067ef7a6
+Reference = S2;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 699ad280-3d4d-4ca1-8baf-857a951aade3
+Path = /88b66fa8-75ad-44f9-8da3-be304c6f6cbf
+Reference = H2;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_2.2mm_M2_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 6a3f4ab5-bbfd-40a5-a256-df2ef2609af9
+Path = /51b3e758-0e95-46e0-961e-4f6266b2e2fc
+Reference = S73;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 6c4971e6-8d80-407b-85f9-2d1ed5922fee
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/349e99be-0036-4258-bd6a-69032a327fb7
+Reference = TP2;
+ValeurCmp = TestPoint;
+IdModule  = TestPoint:TestPoint_Pad_D1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 6c82393c-6da8-492a-bc0e-418e3fb51069
+Path = /e3d55207-503a-48ce-9aed-f60a006a8811
+Reference = H8;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_2.2mm_M2_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 6e0df9bc-6d9d-4e0a-bfa7-0e1b2acb8da0
+Path = /c5323b40-b7b5-4147-abdf-82dbbeab9a41
+Reference = S68;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 6e8789e8-db4e-4cb2-8a79-1510174e7938
+Path = /e869ce30-ad54-47c0-ad39-a698ac732859
+Reference = S67;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 70fa36e8-730e-4bb6-9359-1acdbe59a8f4
+Path = /6fce6d80-d6eb-47e5-aab2-8d719bb5a3a5
+Reference = S26;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 71b39111-3600-409a-af3d-3b57e9939f28
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/0cfc1f9f-73d7-4d3b-ae99-e84f14bef8cc
+Reference = TP4;
+ValeurCmp = TestPoint;
+IdModule  = TestPoint:TestPoint_Pad_D1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 749ae3e3-ef2b-4463-8c16-2fd1d0b15962
+Path = /45731f0e-71cb-4671-a42e-993dc1e74bde
+Reference = S33;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 7927e90e-d2c2-4e3f-929d-c2d1af2427cc
+Path = /e2ee2d04-e630-4381-b346-73da0fbf3187
+Reference = S12;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 795de5da-018e-455b-91bb-a8a4cf4dfa7e
+Path = /2ccfb1f9-00be-49f5-b6a0-28344c7a819c
+Reference = S57;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 7b97713c-10a9-4161-bafc-f3860bcbbab0
+Path = /30e8ed64-43d4-4a3b-bccb-20ab73706d83
+Reference = S35;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 7c9363a5-4472-43a3-8e62-f250133eb72a
+Path = /b443783a-434d-4917-89ce-3ada91d2b024
+Reference = S76;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.25u;
+EndCmp
+
+BeginCmp
+TimeStamp = 83d8dcdb-05fe-4c5d-9a05-7e0b814fa436
+Path = /68a92b3d-587d-47c5-9dca-90beb00e592d
+Reference = S62;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 867ce2ee-7223-4fa8-8b60-6e6764382fa2
+Path = /80f2d4bb-c718-4bd0-ac68-275396cf5ccd
+Reference = S25;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 86f52db3-ef77-4f27-82fc-5c9be24dcf2b
+Path = /6b1a01ee-f626-4102-b761-a9c49957d516
+Reference = S65;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 90e325b6-4370-41b0-b8f9-9034e725a34d
+Path = /11db9994-d5cf-4331-90b6-223b364bd4d6
+Reference = S3;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 94b5e3a9-c837-4c55-a345-217d1728ee6a
+Path = /d4607552-3949-4326-b617-0ed9eb8cfa1d
+Reference = S24;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 9644a080-a40d-4c54-a80d-50c034160a6b
+Path = /71da67e5-9607-4f62-8415-563fbd3b451b
+Reference = S28;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 9c80b7a3-1888-4aae-bc4b-7c0364236350
+Path = /a6b7c938-6ef6-4558-8231-33d0f40fb177
+Reference = S79;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 9f31d642-c65e-4cea-91e6-c03a8c62aa9d
+Path = /f26ad824-a5a2-4503-8fc6-d7347001fb86
+Reference = S42;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 9f40adb5-6b33-4756-b73e-aaebf105b548
+Path = /ee9e1fa5-ea24-4a18-a2bc-75eeb5ea226f
+Reference = S21;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = a10aac5d-e9d9-4002-8224-ee60f33ac8d3
+Path = /23c38e68-a49c-40cd-a4dd-14f8ac0301d7
+Reference = S60;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = a12a2068-9eec-449f-b3f8-5d17ccc5bc65
+Path = /4f4b6c3f-f3aa-45af-9d03-0af53b2b89af
+Reference = S51;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = a8c74853-3baa-4afb-aec4-220d656eb396
+Path = /0fbf7e1d-b662-43a9-8c33-d10025f76b3c
+Reference = S43;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = abe2cd09-ebe0-4c96-8f34-e11bf5b99006
+Path = /0da1f93e-202d-4b43-8a4b-cf4b5759573a
+Reference = S64;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = accdeabe-638f-44e8-a4fc-78ee70e516ee
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/93f94d4d-dde2-4160-8597-5c2552cb8647
+Reference = TP3;
+ValeurCmp = TestPoint;
+IdModule  = TestPoint:TestPoint_Pad_D1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = ae286092-b71e-4413-91e4-069e42a7978a
+Path = /9c3c1e39-11f2-40c3-a65b-829527e242c4
+Reference = S31;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = afb08448-de9b-471a-a6f4-d6e607d196d0
+Path = /c1c7a758-0b3a-4c9a-9f90-33d117582188
+Reference = S23;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = b6165f57-cc5a-4650-9957-89931264aee4
+Path = /f5e6719d-a661-4bf1-b739-6627a41a1fee
+Reference = SW3;
+ValeurCmp = RotaryEncoder_Switch_MP;
+IdModule  = Rotary_Encoder:RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx;
+EndCmp
+
+BeginCmp
+TimeStamp = b6b97f03-a5d5-4f36-b92a-2e4c67e89a9f
+Path = /286ef7a4-c6df-4cb6-813b-bc8646b3713f
+Reference = S55;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = b7a5f772-798c-4846-960f-d39b46b1436d
+Path = /c7cf4562-a8a7-44bd-bfba-1aabdd4744d2
+Reference = S5;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = b90bddd4-21c1-475f-a142-959e91bfecc0
+Path = /7f6ad94e-ed34-4b22-951b-1691c01a60a3
+Reference = S70;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = b9770f56-d3e6-4e38-bc41-95a0320597dd
+Path = /121bc8dd-538e-4bd1-a6be-0e698b3af526
+Reference = S32;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.50u;
+EndCmp
+
+BeginCmp
+TimeStamp = ba8c353b-fc78-4ade-8d02-869732b13732
+Path = /dcf60d38-adf1-4b44-b0b4-5d0bfe83ef97
+Reference = S13;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = be463d24-65b4-4d9a-8d1b-1720f23e037b
+Path = /9485573a-6519-4168-999d-94bed386e635
+Reference = S81;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = c00621d1-3644-4332-b35a-874c845c5faa
+Path = /51ccdd6f-bfb5-4d6d-93a3-07fa56d38b1c
+Reference = S7;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = c24cfb91-7424-4d90-870d-a84f84f976cf
+Path = /9ba98d12-65c6-49be-85ee-687da3e93bc0
+Reference = S15;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = c3d88bf7-9c50-43cf-92bc-09d86808e120
+Path = /81b4eb3a-ce1e-48c9-9be6-a87269d68004
+Reference = S18;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = cc9ee986-194f-44ff-a2fa-ea36cb984597
+Path = /366b6ff7-7c6b-4f2e-8578-2ffc76e308b0
+Reference = S50;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = ce06a3d7-bc0a-46b3-906f-63752efcef9d
+Path = /bebe1582-27b1-4597-ae57-a9f1f9488cc1
+Reference = S20;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = d05159c5-9961-4112-8fc5-5aa5771ca183
+Path = /2bd30636-6e38-4568-94bb-823ae0469231
+Reference = S48;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = d1f340ae-959f-452c-944a-75a9d79e23ed
+Path = /000e1bab-bfeb-4ba6-b9cb-fdb1ededf4d0
+Reference = S87;
+ValeurCmp = Keyswitch;
+IdModule  = PCM_Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = d2d6a17f-959d-4b62-9fb6-8b21c615b82b
+Path = /afb5098b-903e-4e66-b416-9dbe73e2b57d
+Reference = S6;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = d3b8396e-41aa-4199-8b85-bb10186671ad
+Path = /59032b9c-8aa8-4250-be2b-e6c9ba1011f3
+Reference = S27;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = d54c43b8-f783-41d1-9571-bcfca15a662a
+Path = /292dbf96-7cab-4681-97c3-dd3f4b7ce857
+Reference = S38;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = d7fb2e50-51b9-4801-8983-a99e49591087
+Path = /bbe97945-6f5d-47a8-9e2e-a9ffd1135692
+Reference = H7;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_2.2mm_M2_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = d86dd107-3a95-4ecf-930c-ca406f085fe2
+Path = /ec7d1d61-681f-4d78-aefc-e01dce3dc8a6
+Reference = S29;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = da44f3c5-8eaa-4a30-9d49-967c83d03943
+Path = /a6559c70-6bf4-4ca4-bd8d-a87f461a6a2f
+Reference = S9;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = de6ae836-ccdf-4b72-97b8-fa1a52fdb6d3
+Path = /b91967c7-9b39-4c8c-a4a5-612ae97b2b90
+Reference = S8;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = e0d2ec5e-8557-41f3-8c33-6c28495baf52
+Path = /8afb44da-ac7e-4b82-8b1d-509bad9adf63
+Reference = S52;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = e18e9093-b436-472f-92de-b94ffaf3feb3
+Path = /41cd970a-3f0f-438d-90da-c6232d69d47d
+Reference = S66;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = e3b6754a-5cac-4f38-a585-84d00dfd0e83
+Path = /c919cf00-a721-4366-bb2d-1e7befbec18a
+Reference = S75;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.25u;
+EndCmp
+
+BeginCmp
+TimeStamp = e558fa77-f03c-470e-afa3-d500c7f62be9
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/2402fd34-bf74-4c50-a878-c865d9e7458d
+Reference = TP1;
+ValeurCmp = TestPoint;
+IdModule  = TestPoint:TestPoint_Pad_D1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = e6203aed-631e-4e94-bf2f-7947609613f9
+Path = /c0af7058-7111-4db6-84f3-0deb40ffaf0c
+Reference = S69;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = e8aacd61-32c1-4cbf-a74f-3d1f4b88154a
+Path = /bd50ea75-12d3-4261-91c0-67dbc30b6277
+Reference = S58;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = f094a046-1cee-4b99-83fa-0165902917a0
+Path = /bed0bf94-c7cb-4e54-9940-2ea9977bc2c2
+Reference = S56;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = f6e7e9c5-0e70-4bb1-898d-2b0d481bf9ea
+Path = /a2a823be-d2e0-4ef9-b8a1-3150d588da91
+Reference = S40;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = f7414d9b-9d00-40d5-8bd6-f6d96d0b3d38
+Path = /f661a2ff-429b-4534-996b-87b6516a1d79
+Reference = S63;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_1.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = fd18c730-68d3-4771-89e9-3491be686e1b
+Path = /8fe5a16b-8591-4326-a1dc-c7adf2995303
+Reference = S59;
+ValeurCmp = Keyswitch;
+IdModule  = ScottoKeebs_Hotswap:Hotswap_MX_2.25u;
+EndCmp
+
+BeginCmp
+TimeStamp = 00a95640-3045-4901-a838-ddfee2ab39b6
+Path = /4adbbb8e-ed12-4785-b2a2-396ac8520a03
+Reference = C26;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitor_SMD:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 016ae07d-0d6e-462c-adaa-e7bd5747a746
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/bacdb839-d2b9-4b61-baca-b5bdbe123a18
+Reference = R2;
+ValeurCmp = 27.4;
+IdModule  = Resistor_SMD:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 025325f4-b201-4c38-85a5-aacc3d542ad8
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/e6c3a6eb-0391-4071-8c4a-3b448a2b6530
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitor_SMD:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 039b0689-d9e1-428c-b65f-6163922c8505
+Path = /2ca2e247-2e0d-4261-bdbe-aef2659807c1
+Reference = D36;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 03a95089-b9f5-451b-9ee7-494567678b5e
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/4aebcb98-8520-400a-a6fd-00d4fe5498bd
+Reference = J1;
+ValeurCmp = USB_C_Receptacle_USB2.0_16P;
+IdModule  = Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 04a54136-c382-4050-a37e-1be21d2436c3
+Path = /78260200-ccd2-48be-a970-891f9ba86aa1
+Reference = D78;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 0970ffc5-e714-4d45-9b1d-70dcb395ebbe
+Path = /1c32bf84-4bc6-46ce-b9b7-0d1cc4cab419
+Reference = C22;
+ValeurCmp = 100nF;
+IdModule  = Capacitor_SMD:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 0a48b151-e245-4c2c-a4f6-a3b3ea337c73
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/e0fb9fd0-ac3e-4d5d-aa25-b37b1c83600f
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitor_SMD:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 0d4665a3-3943-49aa-b95b-b46b5ce975ef
+Path = /ebdc970e-c5c3-4343-949b-245bf981573b
+Reference = D77;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 0e0b8d88-cb43-476e-a0d2-dbaa941a116d
+Path = /1d9a3b29-5c74-4b12-b1f3-939fc25f48c0
+Reference = D22;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 0e1ad34d-2d30-45bb-bbe6-215d22d3b551
+Path = /18f9804b-a815-4917-b918-b4655a4612f0
+Reference = R11;
+ValeurCmp = 10k;
+IdModule  = Resistor_SMD:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 0e297bfc-d704-43b3-8f9e-1c04c6e44466
+Path = /144e137b-e880-44ec-be1c-ea7101714c20
+Reference = D54;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 148b82f3-4f17-4aab-824e-4d216cf58e9e
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/0405cecc-77fe-41d8-9b78-1e3ebd5b936d
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = Capacitor_SMD:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 17532099-a937-463c-8dba-bd9f6811ccf0
+Path = /0f304c7a-f5cf-4168-941a-d80e8b155e8f
+Reference = D13;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 175c4209-dad0-471a-b035-36b265efb73b
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/89007f37-240f-4c6f-9351-f4d53e49c2cf
+Reference = SW2;
+ValeurCmp = SW_Push;
+IdModule  = Button_Switch_SMD:SW_SPST_EVQP2_MiddlePushTravel_H2.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 184ad5e2-6eac-4fab-bd14-9dde2b20e08e
+Path = /169c97d3-3fe8-4a32-bf53-0b12d37fb331
+Reference = C29;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitor_SMD:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 18c0b8e5-2eda-429c-aa0f-760fe2267dd0
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/ffacac7c-8294-4f63-b908-aeceedd2014b
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitor_SMD:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 1b47d4cc-5cfd-499d-940b-09169d7bae7a
+Path = /974cd263-3545-4f4c-9076-7aa8cea464a1
+Reference = D64;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 1c262d94-b6eb-46f8-803a-44156530ae9c
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/25418079-7ff9-427c-bbd0-d9e01c6d83aa
+Reference = TP19;
+ValeurCmp = TestPoint;
+IdModule  = TestPoint:TestPoint_Pad_D1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 1eed2406-e42b-4eba-ab1b-c33c13957a83
+Path = /cf5ab87c-6bef-4b07-a3a5-656f21340b08
+Reference = R9;
+ValeurCmp = 10k;
+IdModule  = Resistor_SMD:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 1fb84ef2-9e25-48a9-b790-5baf227758f7
+Path = /d4675540-6c31-4449-9e58-8865acdbf142
+Reference = D63;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 1ff11c4b-888d-4c91-9ac7-1aa28c2b7e04
+Path = /1040227f-4d52-4252-99c8-ed0241f62edf
+Reference = D34;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 2022e2a0-3b72-41c4-bfcc-39f37c534f26
+Path = /31437287-8a7a-44fd-9717-768e51949438
+Reference = TP15;
+ValeurCmp = TestPoint;
+IdModule  = TestPoint:TestPoint_Pad_D1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 22eee052-8fd1-44ca-8623-b0875ca7bd70
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/7d1d608a-1867-4801-abbd-464c6d7a0a81
+Reference = R1;
+ValeurCmp = 27.4;
+IdModule  = Resistor_SMD:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 244c3154-81ae-4540-8b4f-cc08983aa3ae
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/1dd82aa4-131f-4d30-b7b1-9d54d4edbc5b
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitor_SMD:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 24a9919a-f491-46ec-9941-43951ed86d0b
+Path = /d948a670-8493-4bd1-9dd7-c4e41d4750bd
+Reference = D53;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 255c8acc-6b7e-4e81-9bbd-063cbd46c920
+Path = /801fb2cd-7f85-4a8d-b050-08a2ecdbc591
+Reference = D14;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 257030d2-4008-4757-8605-fdca3a1b8d72
+Path = /3f50494f-7342-40dc-9129-16f0d6490ae1
+Reference = D2;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 25ec5a24-d458-484d-9bb2-94f91fac7641
+Path = /d0335de0-a298-4865-9354-ef0425a5e16a
+Reference = D57;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 26219084-ab98-4882-b2ab-d1a11aa12201
+Path = /d3e47ce7-4957-47b9-8dcd-ab8477d210a4
+Reference = D39;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 2b40116b-a497-4e52-b245-b103e8ae3de0
+Path = /cc3045d4-149a-4cf7-8b66-cfbfd2475929
+Reference = D23;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 2d124135-846b-4028-909c-8200a33240d0
+Path = /bcc4f9bf-6364-4335-a25f-4e64603f3e37
+Reference = D51;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 2d983286-1a0d-4419-9cad-e7e293cfc6d6
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/5a125fb2-c731-49b8-8b5c-c800ba482fb9
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = Resistor_SMD:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 2fafdb31-e0a8-43ab-adf4-d2bc034d4112
+Path = /7f281235-4ebe-4453-ac09-c5a863cfa2a8
+Reference = D80;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 31460923-2c2a-42ff-a153-8fb294605ef7
+Path = /4ee7f1fd-81c1-413e-a7a0-255a4e0a859f
+Reference = D43;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 358521ec-bbc3-47cf-9b77-9138d9930933
+Path = /86940d31-b65d-49bd-bc01-a941c845785c
+Reference = TP6;
+ValeurCmp = TestPoint;
+IdModule  = TestPoint:TestPoint_Pad_D1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 36800cbc-b942-44f6-b747-6dcdaa31e801
+Path = /691963e4-a2a6-43c6-aabc-c0716c4a360e
+Reference = D56;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 39193b63-f33e-4dc7-805a-7a53e50c50a5
+Path = /6393c55d-9079-4b22-9451-932bab1f946c
+Reference = D15;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 3a529492-9319-47a9-9354-63bf18970c64
+Path = /6737a21f-dfc1-4f35-8789-c0afb74ff6b2
+Reference = TP8;
+ValeurCmp = TestPoint;
+IdModule  = TestPoint:TestPoint_Pad_D1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 3aee87ed-0cee-42e0-8f70-2498e78293d8
+Path = /95b9e4bf-2947-4f87-8583-c008b182491d
+Reference = D71;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 3b2b1621-283d-4bf0-b611-cc97db606662
+Path = /9588917d-6996-47cb-ae98-13699c4d6e3f
+Reference = D76;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 3c21bf6f-ec2d-4b5c-801d-37509a9df3a9
+Path = /e8dc1e75-376a-4b42-b9fc-251af2414376
+Reference = D68;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 3e373470-625f-4f22-a588-5c54ac1d65b4
+Path = /6826a421-12e4-497a-b2a5-1843dc94d2b7
+Reference = D47;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 3f6a6145-18e9-4806-bd02-9b4f2532df08
+Path = /c4c4198a-290a-41f5-8dc1-3059920f3a75
+Reference = TP5;
+ValeurCmp = TestPoint;
+IdModule  = TestPoint:TestPoint_Pad_D1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 42ffe663-b411-47f6-bbda-232f458d9cdc
+Path = /e73deec7-c1f6-402a-906d-829223a56f43
+Reference = D67;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 4307544d-fc0c-4af7-b1ab-c742f1bfdf5d
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/e81e2bd4-2032-4a6c-9f56-d40738dc8f1b
+Reference = U3;
+ValeurCmp = W25Q128JVE;
+IdModule  = Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 43310537-ddb3-44a1-a997-f48bb58ec1f8
+Path = /b4a37d60-880a-47de-be33-cbae882e80a4
+Reference = TP11;
+ValeurCmp = TestPoint;
+IdModule  = TestPoint:TestPoint_Pad_D1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 4443f0f1-6a6a-42cd-8586-040a65bd819d
+Path = /bddab49b-e1be-42ad-81e5-69aa2e5086f4
+Reference = D42;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 44f9c57f-42a9-4f13-9560-3bce7146bccd
+Path = /2cad2112-27f3-464f-b5d8-cfa4a453a797
+Reference = TP13;
+ValeurCmp = TestPoint;
+IdModule  = TestPoint:TestPoint_Pad_D1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 454978af-a813-488b-9f68-e05cb56ae606
+Path = /fdd34188-faf5-41a7-abfa-1795c0c161f3
+Reference = C27;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitor_SMD:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 493558ed-b5b7-4354-a427-24dbde4dd766
+Path = /6f4331f5-1104-48ba-bcd0-56525f5b0ad6
+Reference = D18;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 4a736f08-dd7b-4930-9963-73321a904827
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/b0367ebb-8730-4766-bd58-713398e812db
+Reference = C9;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitor_SMD:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 4a97c120-7db7-4194-9349-b08529c23ea2
+Path = /5eecb6d0-97cb-40e6-91d9-b8e9d57fca8a
+Reference = D73;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 50fb2686-6d02-402f-8897-4f98d364d8b5
+Path = /67cf322b-9add-4b5e-9ccf-36b3b4e40609
+Reference = D10;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 515c81f2-396f-4091-a872-8accb9800e1d
+Path = /ffc2a057-84ab-42cd-aaf9-20554727129f
+Reference = C15;
+ValeurCmp = 10uF;
+IdModule  = Capacitor_SMD:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 51c9345a-a95f-471d-b8b3-fb7ee1cce94b
+Path = /f3bdde05-bc8a-462d-a7fc-88f5208c8b66
+Reference = D11;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 52b23360-c92a-4920-a8c1-74c4bd82cf54
+Path = /e1d11fc0-1769-44f6-9799-94f1c46d980f
+Reference = D48;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 549ffa61-25e1-4042-9c7b-95c3860811f2
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/b7169cb6-0419-44f5-a891-e4ab7ae88944
+Reference = C7;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitor_SMD:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 560c5c49-2d1c-4f52-bb66-4ff5f97191b0
+Path = /1dc26262-5293-49fc-8900-b277ec1635ca
+Reference = TP12;
+ValeurCmp = TestPoint;
+IdModule  = TestPoint:TestPoint_Pad_D1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57a9a349-d995-4e39-81e5-64313073294a
+Path = /9816195e-0eae-4744-b91d-414981e99298
+Reference = D40;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 5aa2693a-6529-47dd-a280-a3ce4cfd1c39
+Path = /cf85ba5b-4ab1-4cae-a340-32ac3b2a6e21
+Reference = D87;
+ValeurCmp = WS2812B;
+IdModule  = LED_WS2812B-4020:LED_WS2812B-4020;
+EndCmp
+
+BeginCmp
+TimeStamp = 5bf52e0c-248d-4f7a-8db4-1a07e5c59370
+Path = /9d452a44-9a2d-463b-931e-3b98b23355b7
+Reference = D75;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 5f8acd13-664a-405d-a86e-1c481a3f4b7e
+Path = /3181c3d7-472d-4023-9ff5-450b792c9c29
+Reference = D61;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 60cebd1e-d648-488d-8085-3e9fef27a00e
+Path = /95d9d74d-9eb1-4d5b-b3ab-ccdffd164cc1
+Reference = D74;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 63245702-edb4-4199-b31f-5cf685ba416f
+Path = /38b48b70-cff4-4e9d-b90e-f16e0f9b2940
+Reference = D59;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 63391f65-22e8-48ca-953d-94e1f48df73d
+Path = /73c93cdd-0824-41cc-b573-cd208a2f84e6
+Reference = D8;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 64987f7c-eb63-4099-94f5-cb8e71d2f2d0
+Path = /8208ec37-4017-4572-9ea8-785f4472d31f
+Reference = D52;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 655162cb-9bc6-4bbe-938d-5b08c2fe9b6e
+Path = /6f778ea5-9869-40b3-bc42-cf59fcc92c29
+Reference = D38;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 6574347d-e5e0-4c24-b189-44a3b9567191
+Path = /94dfd87c-4ddc-4417-bea2-9a9f00b87a10
+Reference = D4;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 66619935-198a-405d-9424-7eae3fb0c921
+Path = /e86a3c8f-3f98-4611-b53d-8b08d7147a43
+Reference = R10;
+ValeurCmp = 10k;
+IdModule  = Resistor_SMD:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 69d793e7-2c88-44ac-af86-011029d93392
+Path = /ff174695-b2cb-47df-b156-44e473dd4efa
+Reference = C21;
+ValeurCmp = 100nF;
+IdModule  = Capacitor_SMD:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 71608370-a1ba-4659-a877-0d1e6a4d9486
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/bbcfda0c-8663-4974-9134-42ac3c1d93ad
+Reference = C16;
+ValeurCmp = 1uF;
+IdModule  = Capacitor_SMD:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 779d6703-983b-4d8e-9080-1ff6b823a9a4
+Path = /9ccca617-bf72-43ae-8b0e-9fb580690937
+Reference = D5;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 788e4b83-7c02-42a6-b0af-758852ba928f
+Path = /a7cd92bb-9f4f-4c8a-a35b-62a175d0a3ee
+Reference = D6;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 7b3cc2ad-1b18-4e17-bff8-cb159e2a861d
+Path = /a3ad0558-2c87-470b-b349-1a4e812ce7e8
+Reference = R7;
+ValeurCmp = 10k;
+IdModule  = Resistor_SMD:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 7b7c927e-03e3-4217-b981-185886f178d7
+Path = /c4d63482-fde0-4be6-8a42-eef7a1726765
+Reference = D82;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 7c6c43d4-6b82-4e75-8118-94837e0e1e86
+Path = /00e08f80-fbfb-40d1-bc7f-fa3478593b24
+Reference = D60;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 8075e976-6fda-4c9f-8db3-bcb54a1bee19
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/574b6d94-a8fe-421e-97dd-82507656b460
+Reference = SW1;
+ValeurCmp = SW_Push;
+IdModule  = Button_Switch_SMD:SW_SPST_EVQP2_MiddlePushTravel_H2.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 809d17d5-b153-4b4a-b39f-1a3da3cf0b52
+Path = /66270dbc-7dcb-4dd7-b3b0-0c4d80163f2e
+Reference = C18;
+ValeurCmp = 100nF;
+IdModule  = Capacitor_SMD:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 838cb75e-cfea-4281-8a8b-2be55fc89d02
+Path = /18c9a368-8f5e-431a-bce3-b7eba2718d95
+Reference = TP7;
+ValeurCmp = TestPoint;
+IdModule  = TestPoint:TestPoint_Pad_D1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 842d342b-a801-4de6-8faa-025237b59794
+Path = /97ec6b25-4441-4f83-80ba-510c11d81d99
+Reference = TP14;
+ValeurCmp = TestPoint;
+IdModule  = TestPoint:TestPoint_Pad_D1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 857b14c9-6532-41ab-9ff6-878318f60c74
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/63d29309-119e-4ed3-bcbe-ef27d6aedf0e
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitor_SMD:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 86c8078c-993d-4184-9a1c-0a2eeb76ce72
+Path = /f42c3028-e7eb-4837-92c9-c40835025099
+Reference = D27;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 88a51bc3-05c2-4f86-9770-70d85561ba9b
+Path = /0f97e998-43ba-4816-9dde-1b9aa45fd5cd
+Reference = D24;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 89532b37-893e-4e34-8ea3-ff4baeab5bd6
+Path = /1dc8d4d9-fefb-4f74-930c-aa1c29016f3c
+Reference = D30;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 895f6ece-cf0c-46ae-b017-a276e0fb082c
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/a361bdd6-987c-439e-a7f5-f5e82018b348
+Reference = C11;
+ValeurCmp = 15pF;
+IdModule  = Capacitor_SMD:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 89957ace-95e8-4885-b253-338cb933df10
+Path = /c9dd7d91-2067-40ae-9643-0ebb014bb182
+Reference = D37;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 8c4fcebc-e9f5-4ca5-8b0b-04bbe8b2a4a8
+Path = /09f975a0-a792-4fb9-8c1d-8d46ec63d4a3
+Reference = D66;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 8dafdb56-df2e-4597-8d08-ee5bbf55439b
+Path = /ade5ef20-c3c9-4f3a-be66-c6959422b169
+Reference = D88;
+ValeurCmp = WS2812B;
+IdModule  = LED_WS2812B-4020:LED_WS2812B-4020;
+EndCmp
+
+BeginCmp
+TimeStamp = 9397799a-8354-4d1c-be98-7b6a5b8a8efa
+Path = /eae26189-e5a8-495f-917a-922380450cee
+Reference = C20;
+ValeurCmp = 100nF;
+IdModule  = Capacitor_SMD:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 93b1ddbb-e0fb-446f-80ac-c6819f80b145
+Path = /b85d9dc4-e77e-40e9-981d-18e7d62b1a64
+Reference = D58;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 947d61a3-d5ee-44f8-9dd8-bc898cda0868
+Path = /1593a090-2be8-4ee8-a5e2-a02ed0570648
+Reference = D46;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 993149d0-2795-41f0-bf9c-0d880f8c2147
+Path = /8404457f-5ffe-4a0d-838f-1602926316dd
+Reference = D9;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 99b2f1df-836f-41be-9e9d-2f108bcfa5d5
+Path = /13130783-ccac-4f41-99d0-02e5eba94814
+Reference = D70;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 9b38ba0a-48b2-4f6a-8230-40f7826bb3b7
+Path = /13303c21-4b5a-4968-b77c-0743318dea4b
+Reference = TP10;
+ValeurCmp = TestPoint;
+IdModule  = TestPoint:TestPoint_Pad_D1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 9c98623d-eccf-4e13-9633-e0c0782c35ca
+Path = /b991b145-a33c-4e4b-bd2f-5c18ef34d929
+Reference = D85;
+ValeurCmp = WS2812B;
+IdModule  = LED_WS2812B-4020:LED_WS2812B-4020;
+EndCmp
+
+BeginCmp
+TimeStamp = 9f42eba8-0a6b-4704-ae04-f4050e80d9a2
+Path = /2ac90e5b-377b-4513-9fda-867d6edf8d9c
+Reference = TP9;
+ValeurCmp = TestPoint;
+IdModule  = TestPoint:TestPoint_Pad_D1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 9fa5855a-f1d2-4990-ac8e-c8043e28b01b
+Path = /5b699e21-7289-4067-866b-5ec8567148a7
+Reference = C17;
+ValeurCmp = 100nF;
+IdModule  = Capacitor_SMD:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = a0fb8b62-d578-4aef-bff8-f803a993aa0a
+Path = /56ce7386-8672-4461-b890-63e43a829e55
+Reference = D1;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = a74c8f2f-d04b-4a8f-abd5-8c43b83daf5f
+Path = /f9cbd225-4a9f-4a01-9ddd-e610a8ce79e0
+Reference = D29;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = a789c7d2-7621-4641-88df-30287a026c69
+Path = /895af29f-2d6a-4cf8-b362-1008b2d0ee18
+Reference = D26;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = a7cecd99-4cac-4480-a4c4-8bba479ab14c
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/993a5f5c-f0ff-4034-a3cd-ca21aca76291
+Reference = R8;
+ValeurCmp = 10k;
+IdModule  = Resistor_SMD:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = a8716ea5-d38e-4fd5-8234-8668f88fd690
+Path = /44987e83-749c-4985-a046-da851393930d
+Reference = D90;
+ValeurCmp = WS2812B;
+IdModule  = LED_WS2812B-4020:LED_WS2812B-4020;
+EndCmp
+
+BeginCmp
+TimeStamp = a92990e3-8fa4-4f21-87e1-80e915e596aa
+Path = /1e656b91-0c12-428e-b81b-971ffb8abd30
+Reference = D83;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = aaadb1c1-c035-4b4b-9484-25a041ad44b3
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/eed55b4d-9a1d-4ced-8af8-c6377d681756
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitor_SMD:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = aab2ae64-db62-4162-adf5-7b8de5d8c077
+Path = /0f00609f-1a6c-4f78-93fa-7a6067278446
+Reference = D55;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = ac787696-b845-4b42-aebf-e33253e131e6
+Path = /eac6f929-d669-43a3-8b14-a258509e0966
+Reference = D84;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = adee3406-c328-4219-9beb-2f0fcc1db19a
+Path = /2ba1ae78-adfa-43e5-934a-2fb2abc02955
+Reference = D21;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = ae3782bb-8f31-452d-ac14-544f3739c87e
+Path = /89ecb249-6c19-4887-9c42-fde6468c8bed
+Reference = D72;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = afc4d99f-ea37-4f85-8013-53bc9dc17ab9
+Path = /a39e5be8-f8e7-4d14-bd25-3f220e1c5684
+Reference = D45;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = b0cc0073-7bb3-4e1f-aaa7-e1617ddd50d3
+Path = /845cef73-e7cc-4d1c-aaa4-a3bbeabd6053
+Reference = D12;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = b2f7a33a-ce06-4128-b09c-5d9999e7d858
+Path = /f9cc8ee9-5d17-43dd-b062-eff954102ad1
+Reference = D32;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = b50fc0a5-d84c-4ff2-8cd7-6004ccd1f7bc
+Path = /c0e5da21-32a9-442e-adc3-d1744c3a7a39
+Reference = R12;
+ValeurCmp = 10k;
+IdModule  = Resistor_SMD:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = b6406852-8c90-45e3-ab10-58d18304b47d
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/28b5fcdf-7f3c-4377-9156-ce51845b1907
+Reference = C10;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitor_SMD:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = b771ad1f-9b51-4d53-95cf-fa578242e242
+Path = /3dbe19ce-eccf-4998-8a66-828416fd2d5a
+Reference = D7;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = b988a587-3232-46df-ae40-60e24a443572
+Path = /a9f5a7c6-96fe-4d94-81be-7d6c626b5d1f
+Reference = D3;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = bac227f8-a9c7-43ee-87d1-8ee02cba6f9f
+Path = /a45ef7b6-38cb-4d79-b3c8-c9be06ed50ba
+Reference = R13;
+ValeurCmp = 100;
+IdModule  = Resistor_SMD:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = bd3a0983-574a-4baf-a6fd-76ac984a04e1
+Path = /1086d7d5-8812-4ae8-8f66-2cf031ab9a1f
+Reference = D69;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = bd87d0c0-bacc-4874-b8b6-56a49c0e7915
+Path = /dd29cc14-582a-4962-a05a-d15c2c2c96a1
+Reference = D79;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = c0ea1f36-7ec2-4c45-a0dc-7a3bca33a7b6
+Path = /8399f412-0a88-4066-ad61-5d078fac292d
+Reference = D31;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = c1b0f79f-8764-4621-aed6-c5c71308773b
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/88be2cf3-3e28-48b8-9e5a-e4a8486508e5
+Reference = C12;
+ValeurCmp = 15pF;
+IdModule  = Capacitor_SMD:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = c1b79252-2652-4800-bf99-c3e1caf08928
+Path = /645873c8-6700-454b-8c90-020fd64f6739
+Reference = D62;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = c3417a5a-26c6-43f6-8ef4-706ed6ef2561
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/089a4cb8-d30e-4302-9fbd-dd82cd315f6b
+Reference = R5;
+ValeurCmp = 1k;
+IdModule  = Resistor_SMD:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = c7076bbc-4489-46c5-825d-21489eaeadb2
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/0f0964e2-1af7-4947-9af5-07ad72d43154
+Reference = C14;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitor_SMD:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = c9197d55-4567-4633-a907-27d977e248ab
+Path = /77efc012-61dd-454d-a920-be70c79b0830
+Reference = C28;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitor_SMD:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = ca7ecdd1-8ee2-4a71-bb77-fc113d6ebee0
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/f80017a6-9a8f-44bc-b5b1-e4603a114e11
+Reference = C13;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitor_SMD:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = cb8a48d2-caaf-4373-8e04-39e6e7cfde2d
+Path = /6be3d6a8-fa53-4dcd-9d0e-1680842c6f50
+Reference = C19;
+ValeurCmp = 100nF;
+IdModule  = Capacitor_SMD:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = cc1a9ff8-1573-4fde-b96e-1c2941cff292
+Path = /b24fa9d6-aa23-4a29-a005-376e229f7dca
+Reference = C25;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitor_SMD:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = cc7252ef-f10d-4095-aa8a-57c5f4abe903
+Path = /5784098e-490b-41e1-9f74-16ef48f70142
+Reference = D33;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = d014fdee-6cf1-48cc-aaf6-34c709b67815
+Path = /f45cc6b0-6e6d-40f8-9334-0e97f4b0e261
+Reference = D19;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = d166da36-3ffa-46b6-a277-153ed3a8d9c9
+Path = /247263f5-b2e2-43ec-b383-028313c3769e
+Reference = D16;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = d1952594-e870-465c-9b77-f8450a11cff9
+Path = /95535962-060c-49be-8998-76ffad3823c9
+Reference = TP16;
+ValeurCmp = TestPoint;
+IdModule  = TestPoint:TestPoint_Pad_D1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = d2415875-3519-418b-b4a3-08a716995597
+Path = /2c180df5-b6ae-43bc-8d59-8b0b6b92b44c
+Reference = D89;
+ValeurCmp = WS2812B;
+IdModule  = LED_WS2812B-4020:LED_WS2812B-4020;
+EndCmp
+
+BeginCmp
+TimeStamp = d4f16009-257a-4ca7-b2f7-440f99015b7c
+Path = /aad6c555-e106-470a-a96e-bf9a72daab73
+Reference = D81;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = d71256a0-4668-46d2-bd1d-563cb850696c
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/bd88c2c3-9ccc-4e1b-a315-61c866b25f74
+Reference = TP20;
+ValeurCmp = TestPoint;
+IdModule  = TestPoint:TestPoint_Pad_D1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = da5f02cd-6fc9-4386-929a-53179bcd1f23
+Path = /4aa5d833-d9ba-4463-a77c-32e7040fcb61
+Reference = D50;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = dbd3084a-8694-4d2d-9b2f-b5b40c20f892
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/334cfb4f-5a40-4138-9513-59f457e309a4
+Reference = U1;
+ValeurCmp = RP2040;
+IdModule  = Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm_ThermalVias;
+EndCmp
+
+BeginCmp
+TimeStamp = dfab1c13-e88f-489b-9a6f-68a1c2991b5a
+Path = /fc51fb1b-8779-4932-92eb-ef17b925261a
+Reference = D65;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = dfadc8f9-67f0-4837-a870-3a5711b373bf
+Path = /fd620685-1515-4043-9806-828e058c6b3e
+Reference = D44;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = e231f0bb-efd7-4515-96f0-2454e3f5e9f0
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/a6da0b94-ae59-4277-b71a-1399512eab67
+Reference = Y1;
+ValeurCmp = Crystal_GND24;
+IdModule  = Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = e5147bb5-24a5-4cd5-ba18-e4a961c0e6fb
+Path = /d749ac18-0e08-47ee-b396-e1fbdf4e0f77
+Reference = D28;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = e7a66e59-1ac7-4e13-8237-518a9c41f6cb
+Path = /4bf8934a-52c8-44f7-9cc5-a37d01d19f6c
+Reference = D25;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = e97ffdc8-9304-42c1-8973-8b1c1f5547a4
+Path = /f4f59e03-6d34-4aef-a2ec-de8bdd580f30
+Reference = D17;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = f6498203-d8eb-4bc0-a8f1-5aa8c54b3b0f
+Path = /a30d93cc-8678-4af3-9c06-69f516d1821e
+Reference = D49;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = f72a2468-769c-4222-912a-dd88645409d3
+Path = /3a827c3d-dfce-4cef-a442-a8c6b5f4cd5a
+Reference = U4;
+ValeurCmp = 74AHCT1G125;
+IdModule  = Package_TO_SOT_SMD:SOT-23-5_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = fa1ec900-a84a-46d6-b8b4-ae8b7f5ff2ac
+Path = /9cbe10ce-51ee-45d4-895d-53d07c5a84d3
+Reference = D86;
+ValeurCmp = WS2812B;
+IdModule  = LED_WS2812B-4020:LED_WS2812B-4020;
+EndCmp
+
+BeginCmp
+TimeStamp = fb0399fb-b0fc-49c9-abdf-22103e1f3346
+Path = /475a168c-6f87-44a7-99f7-d5cb699cf88f/97824456-cf7f-4e4b-a66c-6d7f13396c7f
+Reference = R4;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = fc49e4be-8cba-4b28-8c04-a066859e4b16
+Path = /890aacaa-8de0-44cf-946f-8b3f3456ff29
+Reference = D20;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = fc6f0745-5ff2-428e-b794-2a23d0c49efc
+Path = /2936e27d-f666-4f16-a350-6174e1b25b86
+Reference = D35;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = feb9c114-9265-416a-a7b4-e6bc4a442a52
+Path = /60aca7a2-d421-41c7-9fba-4c507c3d722c
+Reference = D41;
+ValeurCmp = 1N4148W;
+IdModule  = Diode_SMD:D_SOD-123;
+EndCmp
+
+EndListe

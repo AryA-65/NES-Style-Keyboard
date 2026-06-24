@@ -1,0 +1,139 @@
+Cmp-Mod V01 Created by PcbNew   date = 2026-06-23T22:09:01
+
+BeginCmp
+TimeStamp = 045ea34b-de52-4bf7-8249-c39ea24f3463
+Path = /c41c5308-2051-4d7e-be4b-835fe6abe7cd
+Reference = R3;
+ValeurCmp = 680;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 25bcb0d1-616c-4e4b-86a6-6b6b519d6d8d
+Path = /4a80b1ba-c26a-4ae1-8a7b-b2f7aad20c59
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = Capacitor_SMD:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 2b9ed0e7-9b8f-4d4f-838d-655da2e9f635
+Path = /a842ef43-7df5-48b5-80e5-5dcc3503a4b3
+Reference = U2;
+ValeurCmp = USBLC6-2P6;
+IdModule  = Package_TO_SOT_SMD:SOT-666;
+EndCmp
+
+BeginCmp
+TimeStamp = 3167580d-738f-4e25-a094-a256de5b541f
+Path = /8b895c77-7d93-4d0c-911c-9cca050250e7
+Reference = R1;
+ValeurCmp = 5.11k;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 505ca2e0-019b-4d6d-aef4-8c8f4ccadcaa
+Path = /fd0a055c-e19a-4d0d-b80b-7f2ae48b419c
+Reference = R4;
+ValeurCmp = 470;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 6955d668-b519-4501-ab40-6b4d57813372
+Path = /5c642b48-58d8-44b2-9d99-c485bf70855e
+Reference = D1;
+ValeurCmp = Red;
+IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 75635cf0-7b5a-417e-8109-7f7dd47b746a
+Path = /c9edd228-67c2-46db-8c3c-15630d51a4b8
+Reference = H2;
+ValeurCmp = MountingHole_Pad;
+IdModule  = MountingHole:MountingHole_2.2mm_M2_DIN965_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 91915bde-5fc7-477c-9588-55f96f9bfaaa
+Path = /32c6934f-6a71-4ed7-ac74-2838e757eb0b
+Reference = C2;
+ValeurCmp = 10uF;
+IdModule  = Capacitor_SMD:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = a779cdb7-33c1-4f47-8d09-1a1f3cc62f10
+Path = /87dca7c6-d928-46af-b3aa-e49550d6dc6a
+Reference = J1;
+ValeurCmp = USB_C_Receptacle_USB2.0_16P;
+IdModule  = Connector_USB:USB_C_Receptacle_GCT_USB4085;
+EndCmp
+
+BeginCmp
+TimeStamp = b35a0288-7e7f-49c0-a368-217e17a7b91b
+Path = /2a19d27b-7efa-4e95-83d3-49490ef4b496
+Reference = J3;
+ValeurCmp = USB_C_Receptacle_USB2.0_16P;
+IdModule  = Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = bd1ce553-3d17-4f0c-bf5b-99eb91f0245b
+Path = /9e1b3cbe-5d2b-4615-b05f-f35fc3c89419
+Reference = H4;
+ValeurCmp = MountingHole_Pad;
+IdModule  = MountingHole:MountingHole_2.2mm_M2_DIN965_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = c072e663-9bb5-43fe-b150-a44dc2017b4d
+Path = /4ca7ba70-358e-425e-b182-2d97b9e58271
+Reference = U1;
+ValeurCmp = NCP1117-3.3_SOT223;
+IdModule  = Package_TO_SOT_SMD:SOT-223-3_TabPin2;
+EndCmp
+
+BeginCmp
+TimeStamp = e45d99d4-aeba-44ee-8f1e-a39184b39637
+Path = /cb53eeb2-f06a-4c23-98e5-39972a327f41
+Reference = F1;
+ValeurCmp = 500mA;
+IdModule  = Fuse:Fuse_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = e50069ca-aaae-477f-af32-234c07942716
+Path = /18fa9d24-75f9-412a-8355-55ae5430e5ce
+Reference = D2;
+ValeurCmp = Red;
+IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = e75b0fef-3e24-4d47-a6fe-6ec6219881dc
+Path = /0b0746fa-9bf5-46e2-934f-c5d761e734e1
+Reference = H3;
+ValeurCmp = MountingHole_Pad;
+IdModule  = MountingHole:MountingHole_2.2mm_M2_DIN965_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = e890fe91-2c8d-49c5-ba0c-9813bc4b9325
+Path = /39c52e04-f3ea-49a3-88e5-175e5b7a04e5
+Reference = R2;
+ValeurCmp = 5.11k;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = fc16fd1b-0c3c-4139-aaf6-dc634884994b
+Path = /1acd502e-f1df-4e11-8fcd-c27543562d30
+Reference = H1;
+ValeurCmp = MountingHole_Pad;
+IdModule  = MountingHole:MountingHole_2.2mm_M2_DIN965_Pad;
+EndCmp
+
+EndListe
