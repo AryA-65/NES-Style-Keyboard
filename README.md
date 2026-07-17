@@ -1,6 +1,11 @@
 # NES-Style-Keyboard
-====================
+- - - -
 ![Assembly](documents/Pictures/assembly.png)
+
+## Notice
+- - - -
+> [!IMPORTANT]  
+> This Project is in its final stages. Some minor changes may be applied. It is advised that you wait before ordering parts and assembling the components.
 
 ## Description
 - - - -
@@ -16,8 +21,8 @@ A friend of mine wanted to buy a keyboard. I convinced him to let me build him o
   * A total of 6 WS2812b leds are included on the left hand side of the keyboard, right next to the sliding potentiometer. They indicate volume level (if controlled by the potentiometer) and/or caps lock.
 * Repairable Design
   * The power supplied to the main PCB comes from a small daughterboard at the back, middle of the case. This daughterboard consists of a 3V3 LDO as well as a fuse. The two PCBs are connected to a standard 15cm (0.5ft) USB-C cable, allowing for a repairability by the user.
-* Single Body Case
-  * The case for the keyboard is a single, unibody design. It is built to offer comfort, but sound thocky.
+* Unibody Body Case
+  * The case for the keyboard is as a unibody case. It is built to offer comfort, whilst keeping a thocky sound.
 * Hot Swappable Keyswitches
   * Does this need to be explain at this point?
 
@@ -30,6 +35,7 @@ A friend of mine wanted to buy a keyboard. I convinced him to let me build him o
 |Hotswap Sockets (110ps)|$12.21|NaN|[110pcs Kailh Hot-swappable Sockets](https://www.aliexpress.com/item/1005007232040760.html?spm=a2g0o.order_list.order_list_main.30.587f1802SPZi3h)|
 |Diodes|$3.17|NaN|[100pcs 1N4148W](https://www.aliexpress.com/item/1005009660071572.html?spm=a2g0o.order_list.order_list_main.20.587f1802SPZi3h)|
 |Stabilizers|$25.99|NaN|[Durock Screw in Stabilizers V3 (Black)](https://www.aliexpress.com/item/1005003682325989.html?spm=a2g0o.order_list.order_list_main.10.587f1802SPZi3h)|
+|USB-C Cable|$12.64|NaN|[6 inch USB C to USB C Cable (3 Pack)](https://www.amazon.ca/dp/B0CLLRBZDB)|
 |BOM|$34.96|$8.00|[BOMs](production_files)|
 |Main PCB|TBD|TBD| |
 |Daughterboard|TBD|TBD| |
