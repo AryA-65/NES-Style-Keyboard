@@ -1,13 +1,58 @@
 # NES-Style-Keyboard
+====================
+![Assembly](documents/Pictures/assembly.png)
 
 ## Description
-A friend wanted a new keyboard. Instead of buying something off of the shelf, he asked me to build a custom 75% keyboard for him. I decided to go with something retro themed, and after searching a long list of keycap designs, I landed on an NES inspired set. That's when the idea of a custom NES inspired keyboard originated from.
+- - - -
+A friend of mine wanted to buy a keyboard. I convinced him to let me build him one. I decided to build him a custom 75% keyboard, with some extra features based on his preferences, and styled the color scheme to the popular NES. The whole keyboard, including the case, the main PCB, the switch plate and some of the caps, are custom designed by me.
 
 ## Features
-The custom keyboard is a 75% keyboard, with a full function key and arrows, as well as a rotary encoder and a sliding potentiometer. The keyboard also has 6 rgb leds on the mid to bottom left of the keyboard, meant to display caps lock state and slider state (can be programmed to do more). The encoder is intended for music playback and volume control, but can be programmed to do whatever the user likes.
+- - - -
+* Sliding Potentiometer
+  * One of my friend's requests was to cater the keyboard more towards CAD design. The only right solution, in my opinion, is a sliding potentiometer for zoom control in apps like Fusion. The potentiometer can be remapped to another feature, like media volume control.
+* Rotary Encoder
+  * The rotary encoder serves as playback control (play/pause/previous/skip), but also as volume control. If volume control is already mapped by the potentiometer, the encoder can serve to switch audio channels controlled by the potentiometer (ex: switching from the music media channel to the system audio channel)
+* Addressable RGB LEDs
+  * A total of 6 WS2812b leds are included on the left hand side of the keyboard, right next to the sliding potentiometer. They indicate volume level (if controlled by the potentiometer) and/or caps lock.
+* Repairable Design
+  * The power supplied to the main PCB comes from a small daughterboard at the back, middle of the case. This daughterboard consists of a 3V3 LDO as well as a fuse. The two PCBs are connected to a standard 15cm (0.5ft) USB-C cable, allowing for a repairability by the user.
+* Single Body Case
+  * The case for the keyboard is a single, unibody design. It is built to offer comfort, but sound thocky.
+* Hot Swappable Keyswitches
+  * Does this need to be explain at this point?
 
-At the heart of the keyboard is the RP2040, a powerfull 32bit arm microcontroller, powering the keyboard matrix as well as the leds, the slider and the encoder. The keyboard consists of two PCBs, one for the main board and one for the power supply circuit. The daughterboard handles the conversion between 5V and the 3.3V required by the RP2040. Since it can be prone to failure, due to heat or a worn usb connector, the daughterboard is designed to be cheap and replaceable, yet reliable.
+## Parts List
+- - - -
+|Part|*Price|*Shipping|Link|
+|----|-----------|--------|----|
+|Keycaps|$34.18|NaN|[XDA Retro NES Keycaps](https://www.aliexpress.com/item/1005007393936770.html?spm=a2g0o.order_list.order_list_main.25.587f1802SPZi3h)|
+|Keyswitches (90pcs)|$32.18|NaN|[MMD Cream Switches (45G)](https://www.aliexpress.com/item/1005007083480212.html?spm=a2g0o.order_list.order_list_main.35.587f1802SPZi3h)|
+|Hotswap Sockets (110ps)|$12.21|NaN|[110pcs Kailh Hot-swappable Sockets](https://www.aliexpress.com/item/1005007232040760.html?spm=a2g0o.order_list.order_list_main.30.587f1802SPZi3h)|
+|Diodes|$3.17|NaN|[100pcs 1N4148W](https://www.aliexpress.com/item/1005009660071572.html?spm=a2g0o.order_list.order_list_main.20.587f1802SPZi3h)|
+|Stabilizers|$25.99|NaN|[Durock Screw in Stabilizers V3 (Black)](https://www.aliexpress.com/item/1005003682325989.html?spm=a2g0o.order_list.order_list_main.10.587f1802SPZi3h)|
+|BOM|$34.96|$8.00|[BOMs](production_files)|
+|Main PCB|TBD|TBD| |
+|Daughterboard|TBD|TBD| |
+|Switch Plate|TBD|TBD| |
+|Case|TBD|TBD| |
+
+*All prices are in CAD, check in your own currency before buying.
+
+## Quickstart
+- - - -
+Comming Soon
+
+## Support
+- - - -
+Coming Soon
 
 ## Tools Used
+- - - -
 - [Kicad](https://www.kicad.org/)
 - [Keyboard Layout Editor](https://www.keyboard-layout-editor.com/#/)
+- [Autodesk Fusion](https://www.autodesk.com/products/fusion-360/overview)
+
+## Legal Notice
+- - - -
+The software and hardware come as is. It is up to the user to review and make sure that they understand the scope of the project before ordering parts.
+[GPL V2 License](LICENSE)
