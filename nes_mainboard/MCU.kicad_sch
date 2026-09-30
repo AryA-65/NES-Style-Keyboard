@@ -5731,7 +5731,7 @@
 		)
 		(uuid "d0428fb0-55c6-4d8c-8fce-47bc61bee2a0")
 	)
-	(label "QSPI_SS"
+	(label "~{QSPI_SS}"
 		(at 139.7 110.49 0)
 		(effects
 			(font
@@ -6306,7 +6306,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "0"
 			(at 133.35 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6349,7 +6349,7 @@
 				)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC0603FR-071KL/726843"
+		(property "Digikey Link" ""
 			(at 133.35 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -6382,7 +6382,7 @@
 				)
 			)
 		)
-		(property "Part Num." "RC0603FR-071KL"
+		(property "Part Num." ""
 			(at 133.35 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -7276,7 +7276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm_ThermalVias"
+		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm"
 			(at 74.93 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -9594,10 +9594,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97824456-cf7f-4e4b-a66c-6d7f13396c7f")
 		(property "Reference" "R4"
@@ -9611,7 +9611,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 140.97 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9667,6 +9667,28 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 138.43 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC0603FR-071KL/726843"
+			(at 138.43 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Num." "RC0603FR-071KL"
 			(at 138.43 101.6 0)
 			(hide yes)
 			(show_name no)

@@ -516,6 +516,7 @@
 		(property "Reference" "H4"
 			(at 0 -3.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7539d9de-0200-4b47-ad45-63c33cc81e09")
 			(effects
 				(font
@@ -9542,7 +9543,7 @@
 		(layer "Dwgs.User")
 		(uuid "010b2a14-8b75-4fda-af42-bfdc26dab2cd")
 		(pts
-			(xy 2 -2) (xy 2.002482 113.5)
+			(xy 0.430001 -2.5) (xy 0.43 114)
 		)
 		(height -17)
 		(orientation 1)
@@ -9563,8 +9564,8 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "115.5"
-			(at -16.15 55.75 90)
+		(gr_text "116.5"
+			(at -17.719999 55.75 90)
 			(layer "Dwgs.User")
 			(uuid "010b2a14-8b75-4fda-af42-bfdc26dab2cd")
 			(effects
@@ -9580,7 +9581,7 @@
 		(layer "Dwgs.User")
 		(uuid "140f0ef0-dd19-47b7-adbc-b9749cbb33ba")
 		(pts
-			(xy 0 0) (xy 323.866077 1.046627)
+			(xy -0.57 -1.5) (xy 324.438514 -1.5)
 		)
 		(height -24.35)
 		(orientation 0)
@@ -9601,8 +9602,8 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "323.8661"
-			(at 161.933039 -25.5 0)
+		(gr_text "325.0085"
+			(at 161.934257 -27 0)
 			(layer "Dwgs.User")
 			(uuid "140f0ef0-dd19-47b7-adbc-b9749cbb33ba")
 			(effects
