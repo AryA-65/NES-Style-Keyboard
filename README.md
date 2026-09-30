@@ -5,7 +5,7 @@
 ## Notice
 - - - -
 > [!IMPORTANT]  
-> This Project is in its final stages. Some minor changes may be applied. It is advised that you wait before ordering parts and assembling the components.
+> It is always advised that you review the files before ordering, as there may be small issues with the current revision.
 
 ## Description
 - - - -
@@ -14,17 +14,40 @@ A friend of mine wanted to buy a keyboard. I convinced him to let me build him o
 ## Features
 - - - -
 * Sliding Potentiometer
-  * One of my friend's requests was to cater the keyboard more towards CAD design. The only right solution, in my opinion, is a sliding potentiometer for zoom control in apps like Fusion. The potentiometer can be remapped to another feature, like media volume control.
+  * One of my friend's requests was to cater the keyboard more towards CAD design. The only right solution, in my opinion, is a sliding potentiometer for zoom control in apps like Fusion. To zoom using the slider, hold CTRL and move the slider up or down. To scroll horizontally, hold SHIFT and move the slider up or down.
 * Rotary Encoder
   * The rotary encoder serves as playback control (play/pause/previous/skip), but also as volume control. If volume control is already mapped by the potentiometer, the encoder can serve to switch audio channels controlled by the potentiometer (ex: switching from the music media channel to the system audio channel)
 * Addressable RGB LEDs
   * A total of 6 WS2812b leds are included on the left hand side of the keyboard, right next to the sliding potentiometer. They indicate volume level (if controlled by the potentiometer) and/or caps lock.
 * Repairable Design
-  * The power supplied to the main PCB comes from a small daughterboard at the back, middle of the case. This daughterboard consists of a 3V3 LDO as well as a fuse. The two PCBs are connected to a standard 15cm (0.5ft) USB-C cable, allowing for a repairability by the user.
+  * The power supplied to the main PCB comes from a small daughterboard at the back, middle of the case. This daughterboard consists of a 3V3 LDO as well as a fuse. The two PCBs are connected through a standard 15cm (0.5ft) USB-C cable, allowing for easy replacement by the user.
 * Unibody Body Case
-  * The case for the keyboard is as a unibody case. It is built to offer comfort, whilst keeping a thocky sound.
+  * The case for the keyboard is as a unibody case. It is built to offer comfort, whilst keeping a thocky sound (it does sound awesome).
 * Hot Swappable Keyswitches
   * Does this need to be explain at this point?
+
+## Default keymaps
+```
+# Base Layer
+[_BASE] = LAYOUT(
+        KC_ESC, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_F12, KC_HOME, KC_END, KC_PAUSE,
+        KC_GRV, KC_1, KC_2, KC_3, KC_4, KC_5, KC_6, KC_7, KC_8, KC_9, KC_0, KC_MINS, KC_EQL,                    KC_BSPC, KC_INS,
+        KC_TAB,     KC_Q, KC_W, KC_E, KC_R, KC_T, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_LBRC, KC_RBRC,               KC_BSLS, KC_DEL,
+        KC_CAPS,        KC_A, KC_S, KC_D, KC_F, KC_G, KC_H, KC_J, KC_K, KC_L, KC_SCLN, KC_QUOT,                 KC_ENT, KC_PGUP,
+        KC_LSFT,            KC_Z, KC_X, KC_C, KC_V, KC_B, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, KC_RSFT,        KC_UP, KC_PGDN,
+        KC_LCTL,    KC_LGUI,    KC_LALT,            KC_SPC,                   KC_RALT, MO(_FL), KC_RCTL, KC_LEFT, KC_DOWN, KC_RIGHT
+    )
+
+#Fn Layer
+[_FL] = LAYOUT(
+        _______, KC_PWR, KC_F2, KC_BRIU, KC_BRID, KC_F5, KC_MSEL, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_F12, _______, _______, KC_SLEP,
+        _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, UG_SPDD, UG_SPDU,              _______, UG_NEXT,
+        _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, UG_PREV,
+        _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,     _______, UG_SATU,
+        _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,     UG_VALU, UG_SATD,
+        _______,    _______,    _______,            _______,                    _______, _______, _______, UG_HUED, UG_VALD, UG_HUEU
+    )
+```
 
 ## Parts List
 - - - -
