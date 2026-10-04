@@ -70,10 +70,10 @@ A friend of mine wanted to buy a keyboard. I convinced him to let me build him o
 
 Total (excluding import fees): $298.66
 
-* All prices are in CAD, check in your own currency before buying.
-** Combined shipping for keyboard and daughterboard PCB, misc. items and enclosure.
-*** Includes encoder knob, slider handle, power led bar and status bar
-**** I decided to print the switchplate at home, since it was much cheaper per unit and overall compared to ordering it (price will be updated soon).
+*All prices are in CAD, check in your own currency before buying.
+**Combined shipping for keyboard and daughterboard PCB, misc. items and enclosure.
+***Includes encoder knob, slider handle, power led bar and status bar
+****I decided to print the switchplate at home, since it was much cheaper per unit and overall compared to ordering it (price will be updated soon).
 
 ## Quickstart
 - - - -
