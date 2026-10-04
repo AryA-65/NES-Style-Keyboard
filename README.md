@@ -65,7 +65,7 @@ A friend of mine wanted to buy a keyboard. I convinced him to let me build him o
 |Main PCB|$31.20|$43.78**|[Main PCB](production_files/gerbers_to_order_main)|
 |Daughterboard|$3.00|$43.78**|[Daughterboard PCB](production_files/gerbers_to_order_secondary)|
 |Switch Plate****|$0.00|NaN|[Plate PCB](production_files/gerbers_to_order_plate)|
-|Case|$65.13|$43.78**|[Enclosure](production_files/3D_files/Case\/(V2).3mf)|
+|Case|$65.13|$43.78**|[Enclosure](production_files/3D_files/Case\(V2).3mf)|
 |Misc.|$6.50***|$43.78**|[Misc. Parts](production_files/3D_files)|
 
 Total (excluding import fees): $298.66
