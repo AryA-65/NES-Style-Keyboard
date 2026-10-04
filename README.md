@@ -11,6 +11,8 @@
 - - - -
 A friend of mine wanted to buy a keyboard. I convinced him to let me build him one. I decided to build him a custom 75% keyboard, with some extra features based on his preferences, and styled the color scheme to the popular NES. The whole keyboard, including the case, the main PCB, the switch plate and some of the caps, are custom designed by me.
 
+## Gallery
+
 ## Features
 - - - -
 * Sliding Potentiometer
@@ -60,16 +62,35 @@ A friend of mine wanted to buy a keyboard. I convinced him to let me build him o
 |Stabilizers|$25.99|NaN|[Durock Screw in Stabilizers V3 (Black)](https://www.aliexpress.com/item/1005003682325989.html?spm=a2g0o.order_list.order_list_main.10.587f1802SPZi3h)|
 |USB-C Cable|$12.64|NaN|[6 inch USB C to USB C Cable (3 Pack)](https://www.amazon.ca/dp/B0CLLRBZDB)|
 |BOM|$34.96|$8.00|[BOMs](production_files)|
-|Main PCB|TBD|TBD| |
-|Daughterboard|TBD|TBD| |
-|Switch Plate|TBD|TBD| |
-|Case|TBD|TBD| |
+|Main PCB|$31.20|$43.78**|[Main PCB](production_files/gerbers_to_order_main)|
+|Daughterboard|$3.00|$43.78**|[Daughterboard PCB](production_files/gerbers_to_order_secondary)|
+|Switch Plate****|$0.00|NaN|[Plate PCB](production_files/gerbers_to_order_plate)|
+|Case|$65.13|$43.78**|[Enclosure](production_files/3D_files/Case\/(V2).3mf)|
+|Misc.|$6.50***|$43.78**|[Misc. Parts](production_files/3D_files)|
 
-*All prices are in CAD, check in your own currency before buying.
+Total (excluding import fees): $298.66
+
+* All prices are in CAD, check in your own currency before buying.
+** Combined shipping for keyboard and daughterboard PCB, misc. items and enclosure.
+*** Includes encoder knob, slider handle, power led bar and status bar
+**** I decided to print the switchplate at home, since it was much cheaper per unit and overall compared to ordering it (price will be updated soon).
 
 ## Quickstart
 - - - -
-Comming Soon
+### 1) First flash
+This step if for first flash, right after assembling your PCBs:
+1) Download the UF2 prebuilt firmware in [firmware](firmware/).
+2) Connect main board to daughterboard through USB-C intercable (**never connect a USB-C cable directly to the main PCB, it will damage the board**).
+3) Press and hold EN button on keyboard.
+4) Plug USB-C cable from computer to daughterboard, and let go of the EN button.
+5) A USB device will appear in your file explorer, drag and drop UF2 file from your downloads folder into the USB device.
+6) If the keyboard automatically resets, the flash was successful. Otherwise, try flashing again.
+
+### 2) Reflash
+Since the EN button is on the opposite side of the board and not accessible once the keyboard is assembled, I added a key combo that resets the board and enables flashing new firmware:
+1) Press and release right CTRL, ESC, left CTRL and END button at the same time.
+2) Drag and drop UF2 firmware from your computer onto the keyboard.
+3) If the keyboard automatically resets, the flash was successful. Otherwise, try flashing again (step 1).
 
 ## Support
 - - - -
@@ -83,5 +104,5 @@ Coming Soon
 
 ## Legal Notice
 - - - -
-The software and hardware come as is. It is up to the user to review and make sure that they understand the scope of the project before ordering parts.
+The software and hardware come as is. It is up to the user to review and make sure that they understand the scope of the project before attempting the project.
 [GPL V2 License](LICENSE)
