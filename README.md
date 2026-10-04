@@ -101,6 +101,7 @@ Coming Soon
 - [Kicad](https://www.kicad.org/)
 - [Keyboard Layout Editor](https://www.keyboard-layout-editor.com/#/)
 - [Autodesk Fusion](https://www.autodesk.com/products/fusion-360/overview)
+- [QMK Firmawre](https://qmk.fm/)
 
 ## Legal Notice
 - - - -
